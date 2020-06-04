@@ -10,6 +10,7 @@
   <scope>test</scope>
 </dependency>
 
+    
 <dependency>
   <groupId>org.springframework</groupId>
   <artifactId>spring-context</artifactId>
@@ -25,6 +26,8 @@
 ```
 
 junit用于@Test注解，该注解用于测试单独类
+
+
 
 
 
@@ -62,6 +65,7 @@ public class Myconfig {
 ApplicationContext app = new AnnotationConfigApplicationContext(Myconfig.class);
 Object bean = app.getBean("person");
 ```
+
 
 
 

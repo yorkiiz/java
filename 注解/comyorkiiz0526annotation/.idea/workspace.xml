@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7d72c95c-d645-42c8-8e95-7cdcf5768186" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1cRftHS0uep4CMkRX6VQdebETGM" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/yorkiiz/demo/annotation/injections/value" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.4154412" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\工作\mygit\comyorkiiz0526annotation\src\main\java\com\yorkiiz\demo\annotation\injections\value" />
+      <recent name="E:\工作\mygit\comyorkiiz0526annotation\src\main\java\com\yorkiiz\demo\annotation\Lifecycle" />
+      <recent name="E:\工作\mygit\comyorkiiz0526annotation\src\main\java\com\yorkiiz\demo\annotation\Imports" />
+      <recent name="E:\工作\mygit\comyorkiiz0526annotation\src\main\java\com\yorkiiz\demo\annotation\conditional" />
+      <recent name="E:\工作\mygit\comyorkiiz0526annotation\src\main\java\com\yorkiiz\demo\annotation\LAZY" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.MyTest.test">
+    <configuration name="MyTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="comyorkiiz0526annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yorkiiz.demo.annotation.Lifecycle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yorkiiz.demo.annotation.Lifecycle" />
+      <option name="MAIN_CLASS_NAME" value="com.yorkiiz.demo.annotation.Lifecycle.MyTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="comyorkiiz0526annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yorkiiz.demo.annotation.injections.value.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yorkiiz.demo.annotation.injections.value" />
+      <option name="MAIN_CLASS_NAME" value="com.yorkiiz.demo.annotation.injections.value.MyTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="comyorkiiz0526annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yorkiiz.demo.annotation.Imports.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yorkiiz.demo.annotation.Imports" />
+      <option name="MAIN_CLASS_NAME" value="com.yorkiiz.demo.annotation.Imports.MyTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="comyorkiiz0526annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yorkiiz.demo.annotation.LAZY.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yorkiiz.demo.annotation.LAZY" />
+      <option name="MAIN_CLASS_NAME" value="com.yorkiiz.demo.annotation.LAZY.MyTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.test (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="comyorkiiz0526annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yorkiiz.demo.annotation.Lifecycle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yorkiiz.demo.annotation.Lifecycle" />
+      <option name="MAIN_CLASS_NAME" value="com.yorkiiz.demo.annotation.Lifecycle.MyTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="comyorkiiz0526annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yorkiiz.demo.annotation.injections.value.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yorkiiz.demo.annotation.injections.value" />
+      <option name="MAIN_CLASS_NAME" value="com.yorkiiz.demo.annotation.injections.value.MyTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="comyorkiiz0526annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yorkiiz.demo.annotation.conditional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yorkiiz.demo.annotation.conditional" />
+      <option name="MAIN_CLASS_NAME" value="com.yorkiiz.demo.annotation.conditional.MyTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea -Dos.name=Linux" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="comyorkiiz0526annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yorkiiz.demo.annotation.conditional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yorkiiz.demo.annotation.conditional" />
+      <option name="MAIN_CLASS_NAME" value="com.yorkiiz.demo.annotation.conditional.MyTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea -Dos.name=Linux" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="comyorkiiz0526annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yorkiiz.demo.annotation.conditional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yorkiiz.demo.annotation.conditional" />
+      <option name="MAIN_CLASS_NAME" value="com.yorkiiz.demo.annotation.conditional.MyTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea -Dos.name=Linux" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.MyTest.test (1)" />
+      <item itemvalue="JUnit.MyTest.test (2)" />
+      <item itemvalue="JUnit.MyTest (1)" />
+      <item itemvalue="JUnit.MyTest (2)" />
+      <item itemvalue="JUnit.MyTest.test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MyTest.test" />
+        <item itemvalue="JUnit.MyTest (2)" />
+        <item itemvalue="JUnit.MyTest.test (2)" />
+        <item itemvalue="JUnit.MyTest (1)" />
+        <item itemvalue="JUnit.MyTest.test (2)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7d72c95c-d645-42c8-8e95-7cdcf5768186" name="Default Changelist" comment="" />
+      <created>1590496540667</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590496540667</updated>
+      <workItem from="1590496546945" duration="11087000" />
+      <workItem from="1590680963700" duration="3026000" />
+      <workItem from="1590813005036" duration="10974000" />
+      <workItem from="1590897500411" duration="12912000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
