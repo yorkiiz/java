@@ -86,7 +86,7 @@ session 主要应用于web模块
 
 
 
-![image-20200530124500185](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20200530124500185.png)
+![image-20200530124500185](https://github.com/yorkiiz/java/tree/master/picture/image-20200530124500185.png)
 
 
 
@@ -96,9 +96,9 @@ session 主要应用于web模块
 
 延迟加载
 
-![image-20200531121850877](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20200531121850877.png)
+![image-20200531121850877](https://github.com/yorkiiz/java/tree/master/picture/image-20200531121850877.png)
 
-![image-20200530133751377](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20200530133751377.png)
+![image-20200530133751377](https://github.com/yorkiiz/java/tree/master/picture/image-20200530133751377.png)
 
 对单例模式而言，在创建applicationcontext的时候加载对象，
 
@@ -165,13 +165,13 @@ public class LinuxOs implements Condition {
 
 #### @import
 
-![image-20200531141037254](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20200531141037254.png)
+![image-20200531141037254](https://github.com/yorkiiz/java/tree/master/picture/image-20200531141037254.png)
 
 
 
 导入类名，构建bean时导入的类会被构建
 
-![image-20200531141129254](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20200531141129254.png)
+![image-20200531141129254](https://github.com/yorkiiz/java/tree/master/picture/image-20200531141129254.png)
 
 导入类指定位置
 
@@ -181,11 +181,11 @@ public class LinuxOs implements Condition {
 
 1.用bean注入
 
-![image-20200531154521745](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20200531154521745.png)
+![image-20200531154521745](https://github.com/yorkiiz/java/tree/master/picture/image-20200531154521745.png)
 
 2.实现InitializingBean和DisposableBean接口
 
-![image-20200531154547916](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20200531154547916.png)
+![image-20200531154547916](https://github.com/yorkiiz/java/tree/master/picture/image-20200531154547916.png)
 
 3.使用@PostConstruct和@PreDestroy注解
 
@@ -195,14 +195,14 @@ public class LinuxOs implements Condition {
 
 #### @value
 
-![image-20200531163154760](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20200531163154760.png)
+![image-20200531163154760](https://github.com/yorkiiz/java/tree/master/picture/image-20200531163154760.png)
 
 配置在成员变量前，可以是值，也可以引用配置文件
 
-![image-20200531163257712](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20200531163257712.png)
+![image-20200531163257712](https://github.com/yorkiiz/java/tree/master/picture/image-20200531163257712.png)
 
 引用配置文件时，config文件引用注解PropertySource
 
-![image-20200531163338666](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20200531163338666.png)
+![image-20200531163338666](https://github.com/yorkiiz/java/tree/master/picture/image-20200531163338666.png)
 
 配置文件加入值
