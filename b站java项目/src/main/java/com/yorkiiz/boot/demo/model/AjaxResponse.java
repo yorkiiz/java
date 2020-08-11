@@ -30,5 +30,13 @@ public class AjaxResponse {
         return ajaxResponse;
     }
 
+    public static AjaxResponse success(){
+        AjaxResponse ajaxResponse = new AjaxResponse();
+        ajaxResponse.setIsok(true);
+        ajaxResponse.setCode(200);
+        ajaxResponse.setMessage("find succeuss");
+        return ajaxResponse;
+    }
+
 
 }
