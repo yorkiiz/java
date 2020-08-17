@@ -4,10 +4,7 @@ package com.yorkiiz.boot.demo.controller;
 import com.yorkiiz.boot.demo.model.AjaxResponse;
 import com.yorkiiz.boot.demo.model.Article;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.Date;
 
@@ -32,6 +29,35 @@ public class ArticleRestController {
         log.info("Article"+article);
 
         return AjaxResponse.success(article);
+    }
+
+    @RequestMapping(value = "/Articles/{id}",method = RequestMethod.POST)
+    public AjaxResponse saveArticle(@RequestBody Article article){
+
+        log.info("Article"+article);
+
+        return AjaxResponse.success();
+    }
+
+    @RequestMapping(value = "/Articles/{id}",method = RequestMethod.PUT)
+    public AjaxResponse updateArticle(@RequestBody Article article){
+
+        if(article.getId() == null){
+            //TODO抛出一个异常
+        }
+
+        log.info("Article"+article);
+
+        return AjaxResponse.success(article);
+    }
+
+
+    @RequestMapping(value = "/Articles/{id}",method = RequestMethod.DELETE)
+    public AjaxResponse deleteArticle(@PathVariable("id")Long id){
+
+        log.info("Article"+ id);
+
+        return AjaxResponse.success();
     }
 
 }
