@@ -1,11 +1,15 @@
 package com.yorkiiz.boot.demo.controller;
 
 
+import com.yorkiiz.boot.demo.Serviece.ArticleService;
 import com.yorkiiz.boot.demo.model.AjaxResponse;
 import com.yorkiiz.boot.demo.model.Article;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.web.bind.annotation.*;
 
+import javax.annotation.Resource;
 import java.util.Date;
 
 /**
@@ -15,9 +19,14 @@ import java.util.Date;
  **/
 @RestController
 @Slf4j
+@RequestMapping("/rest")
 public class ArticleRestController {
 
-    @RequestMapping(value = "/Articles/{id}",method = RequestMethod.GET)
+    @Resource
+    ArticleService articleService;
+
+    //@RequestMapping(value = "/Articles/{id}",method = RequestMethod.GET)
+    @GetMapping( "/Articles/{id}")
     public AjaxResponse getArticle(@PathVariable("id")Long id){
         Article article = Article.builder()
                 .author("yongjie")
@@ -31,15 +40,17 @@ public class ArticleRestController {
         return AjaxResponse.success(article);
     }
 
-    @RequestMapping(value = "/Articles/{id}",method = RequestMethod.POST)
+    //@RequestMapping(value = "/Articles/{id}",method = RequestMethod.POST)
+    @PostMapping( "/articles")
     public AjaxResponse saveArticle(@RequestBody Article article){
 
         log.info("Article"+article);
 
-        return AjaxResponse.success();
+        return AjaxResponse.success(articleService.saveaticle(article));
     }
 
-    @RequestMapping(value = "/Articles/{id}",method = RequestMethod.PUT)
+    //@RequestMapping(value = "/Articles/{id}",method = RequestMethod.PUT)
+    @PutMapping(value = "/Articles/{id}")
     public AjaxResponse updateArticle(@RequestBody Article article){
 
         if(article.getId() == null){
@@ -52,7 +63,8 @@ public class ArticleRestController {
     }
 
 
-    @RequestMapping(value = "/Articles/{id}",method = RequestMethod.DELETE)
+    //@RequestMapping(value = "/Articles/{id}",method = RequestMethod.DELETE)
+    @DeleteMapping("/Articles/{id}")
     public AjaxResponse deleteArticle(@PathVariable("id")Long id){
 
         log.info("Article"+ id);
