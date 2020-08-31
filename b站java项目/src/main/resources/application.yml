@@ -4,4 +4,9 @@ spring:
     time-zone: GMT+8
   profiles:
     active: prod
+  datasource:
+    url:jdbc:mysql://192.168.1.101:3306/testdb?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    data-username:root
+    data-password:root
+    driver-class-name: com.mysql.jdbc.Driver
 
