@@ -3,6 +3,7 @@ package com.yorkiiz.boot.demo.Serviece;
 import com.yorkiiz.boot.demo.dao.ArticleJDBCDAO;
 import com.yorkiiz.boot.demo.model.Article;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -20,6 +21,8 @@ public class ArticleJDBCServiceTemplete implements ArticleJDBCService {
 
     @Resource
     ArticleJDBCDAO articleJDBCDAO;
+
+
 
     @Override
     public void saveArticle(Article article) {

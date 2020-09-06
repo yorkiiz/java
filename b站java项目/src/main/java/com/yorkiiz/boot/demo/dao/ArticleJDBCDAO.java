@@ -6,6 +6,7 @@ import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
+import javax.annotation.Resource;
 import java.util.List;
 
 /**
@@ -17,7 +18,17 @@ import java.util.List;
 @Repository
 public class ArticleJDBCDAO {
 
-    @Autowired
+
+    //@Resource
+    //JdbcTemplate primaryJdbcTemplate;
+    @Resource
+    JdbcTemplate secondaryJdbcTemplate;
+
+    //@Resource(name = "primaryJdbcTemplate")
+    //JdbcTemplate jdbcTemplate ;
+    //JdbcTemplate jdbcTemplate = secondaryDataSource;
+
+    @Resource(name = "secondaryJdbcTemplate")
     JdbcTemplate jdbcTemplate;
 
     public void save(Article article){
