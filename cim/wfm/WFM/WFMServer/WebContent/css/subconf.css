@@ -1,0 +1,61 @@
+
+TH#eqptInfoSec1 {
+	width=33%
+}
+
+TH#eqptInfoHead1 {
+	text-align: left;
+	width=50%;
+}
+
+TH#eqptInfoHead2 {
+	text-align: left;
+	width=25%;
+}
+
+TH#eqptInfoHead3 {
+	width=33%;
+}
+
+TH#eqptInfoHead4 {
+	width = 14%;
+}
+
+TH#eqptInfoHead5_1 {
+	width=15%;
+}
+TH#eqptInfoHead5_2 {
+	width=40%;
+}
+
+
+TH#stcInfoHead2 {
+	width=25%;
+}
+
+input.textcolor {
+    text-align       : center;
+    border           : 1px solid black;
+}
+
+input#textColor1{background-Color : #FFFFFF;}
+input#textColor2{background-Color : #D7FFFD;}
+input#textColor3{background-Color : #00FFFF;}
+input#textColor4{background-Color : #00FF00;}
+input#textColor5{background-Color : #FFFF00;}
+input#textColor6{background-Color : #FF7575;}
+input#textColor7{background-Color : #FFFFFF;}
+
+TR#textColor1{background-Color : #FFFFFF;}
+TR#textColor2{background-Color : #D7FFFD;}
+TR#textColor3{background-Color : #00FFFF;}
+TR#textColor4{background-Color : #00FF00;}
+TR#textColor5{background-Color : #FFFF00;}
+TR#textColor6{background-Color : #FF7575;}
+TR#textColor7{background-Color : #FFFFFF;}
+
+input#alertColor1{background-Color : #00FF00;}
+input#alertColor2{background-Color : #FFFF00;}
+TR#alertColor1{background-Color : #00FF00;}
+TR#alertColor2{background-Color : #FFFF00;}
+

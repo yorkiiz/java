@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struct SYSTEM "lcd-struct.dtd" [
+<!ENTITY % xlglen SYSTEM "xlglen.dtd"> %xlglen;
+]>
+<struct name="transaction">
+    <field name="trx_id" size="&TRX_ID_LEN;">BPINQLOT</field>
+    <field name="type_id" size="&TRX_TYP_LEN;">O</field>
+    <field name="rtn_code" size="&RTN_CODE_LEN;"/>
+    <field name="rtn_mesg" size="&RTN_MESG_LEN;"/>
+    <field name="lot_stat" size="&LOT_STAT_LEN;"/>
+    <field name="temp_lot_flg" size="1"/>
+    <field name="product_cate" size="&CODE_LEN;"/>
+    <field name="ppbox_id" size="&PPBOX_ID_LEN;"/>
+    <field name="stb_sht_cnt" size="&SHT_CNT_LEN;"/>
+    <field name="pnl_sht_cnt" size="&PNL_SHT_CNT_LEN;"/>
+    <field name="lot_note_flg" size="1"/>
+    <field name="pln_stb_date" size="&DATE_LEN;"/>
+    <field name="pln_cmp_date" size="&DATE_LEN;"/>
+    <field name="pln_cmp_time" size="&TIME_LEN;"/>
+    <field name="pln_cmp_mfdt" size="&DATE_LEN;"/>
+    <field name="pln_cmp_mfwk" size="&MFGWEEK_LEN;"/>
+    <field name="pln_cmp_mfmn" size="&MFGMONTH_LEN;"/>
+    <field name="pln_cmp_mfsh" size="&MFGSHOP_LEN;"/>
+    <field name="act_stb_user" size="&USER_ID_LEN;"/>
+    <field name="act_stb_date" size="&DATE_LEN;"/>
+    <field name="act_stb_time" size="&TIME_LEN;"/>
+    <field name="act_stb_mfdt" size="&DATE_LEN;"/>
+    <field name="act_stb_mfwk" size="&MFGWEEK_LEN;"/>
+    <field name="act_stb_mfmn" size="&MFGMONTH_LEN;"/>
+    <field name="act_stb_mfsh" size="&MFGSHOP_LEN;"/>
+    <field name="mtrl_product_id" size="&MTRL_ID_LEN;"/>
+    <field name="worder_id" size="&WORDER_ID_LEN;"/>
+    <field name="sales_order" size="&SALES_ORDER_LEN;"/>
+    <field name="stb_fab_id" size="&FAB_ID_LEN;"/>
+    <field name="stb_line_id" size="&LINE_ID_LEN;"/>
+    <field name="stb_product_id" size="&PRODUCT_ID_LEN;"/>
+    <field name="stb_ec_code" size="&EC_CODE_LEN;"/>
+    <field name="stb_route_id" size="&ROUTE_ID_LEN;"/>
+    <field name="stb_route_ver" size="&ROUTE_VER_LEN;"/>
+    <field name="stb_charge_code" size="&CHARGE_CODE_LEN;"/>
+    <field name="stb_owner_id" size="&OWNER_ID_LEN;"/>
+    <field name="stb_prty" size="&CODE_LEN;"/>
+    <field name="last_splt_id" size="&SPLT_ID_LEN;"/>
+    <field name="rel_date" size="&DATE_LEN;"/>
+    <field name="crt_aft_stb_flg" size="1"/>
+    <field name="chg_stat_date" size="&DATE_LEN;"/>
+    <field name="chg_stat_time" size="&TIME_LEN;"/>
+    <field name="dest_shop" size="&CODE_LEN;"/>
+</struct>

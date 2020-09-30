@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struct SYSTEM "lcd-struct.dtd" [
+  <!ENTITY % alglen SYSTEM "alglen.dtd"> %alglen;
+]>
+<struct name="transaction">
+  <field name="trx_id" size="&TRX_ID_LEN;">BPLHCSTC</field>
+  <field name="type_id" size="&TRX_TYP_LEN;">I</field>
+  <field name="inq_typ" size="1"/>
+  <field name="product_id" size="&PRODUCT_ID_LEN;"/>
+  <field name="pp_maker_code" size="&PP_MAKER_CODE_LEN;"/>
+  <field name="pp_hinmei" size="&PP_HINMEI_LEN;"/>
+  <field name="pp_mtrl_lot_id" size="&PP_MTRL_LOT_ID_LEN;"/>
+  <field name="pp_process" size="1"/>
+  <field name="pp_case_id" size="&PP_CASE_ID_LEN;"/>
+  <field name="pp_type" size="&PP_TYPE_LEN;"/>
+  <field name="fr_lst_stc_in_date" size="1"/>
+  <field name="to_lst_stc_in_date" size="1"/>
+</struct>

@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<layout>
+<links>
+<link id="Alarm List" type="equipment" url="/ppt_eqptAlrtList.do">
+<parameter name="eqpt_id" refer="EQPT_ID" value=""/>
+</link>
+<link id="Equipment Information" type="equipment" url="/ppt_eqptInfo.do">
+<parameter name="eqpt_id" refer="EQPT_ID" value=""/>
+</link>
+<link id="In-Process List" type="equipment" url="/ppt_inprList.do">
+<parameter name="eqpt_id" refer="EQPT_ID" value=""/>
+</link>
+<link id="WIP List" type="equipment" url="/ppt_wipList.do">
+<parameter name="eqpt_id" refer="EQPT_ID" value=""/>
+</link>
+<link id="Equipment Status History" type="equipment" url="/ppt_eqptStatHis.do">
+<parameter name="eqpt_id" refer="EQPT_ID" value=""/>
+</link>
+<link id="Unit Status Change History" type="unit" url="/ppt_unitStatHis.do">
+<parameter name="eqpt_id" refer="EQPT_ID" value=""/>
+</link>
+</links>
+<area id="Demo_1F" image="MyDemo">
+<equipment id="CUTCLN01" type="equipment" >
+<shape>
+<top>117</top>
+<left>206</left>
+<right>328</right>
+<bottom>217</bottom>
+</shape>
+</equipment>
+</area>
+<images>
+<image id="MyDemo" path="MyDemo.gif" base="FFFFFF" border="FF0000"/>
+<image id="port" path="port.gif" base="FFFFFF" border="FF0000"/>
+</images>
+<colors>
+<color type="mode" main="CONT" desc="Control" rgb="0066FF"/>
+<color type="mode" main="MANU" desc="Manual" rgb="FF8080"/>
+<color type="portStatus" main="DOWN" desc="Port Down" rgb="FF8000"/>
+<color type="portStatus" main="FREE" desc="Port Free" rgb="00FF00"/>
+<color type="portStatus" main="LDCM" desc="Load Complete" rgb="00FFFF"/>
+<color type="portStatus" main="LDRQ" desc="Load Request" rgb="00FF80"/>
+<color type="portStatus" main="UDCM" desc="Un-Load Complete" rgb="0080FF"/>
+<color type="portStatus" main="UDRQ" desc="Un-Load Request" rgb="0000FF"/>
+<color type="status" main="DOWN" desc="7000" rgb="FF0000"/>
+<color type="status" main="IDLE" desc="2000" rgb="FFFF00"/>
+<color type="status" main="RUN" desc="1000" rgb="00FF00"/>
+<color type="status" main="ENG" desc="1000" rgb="00FF00"/>
+<color type="status" main="MFG" desc="5000" rgb="80FFFF"/>
+<color type="status" main="FAC" desc="" rgb="FFDC15"/>
+<color type="status" main="PM" desc="" rgb="79B9C4"/>
+<color type="status" main="STUP" desc="" rgb="9C67AD"/>
+<color type="status" main="HOLD" desc="" rgb="FF8000"/>
+</colors>
+</layout>

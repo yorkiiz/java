@@ -1,0 +1,124 @@
+.PAGE-TITLE {font-weight: bold; font-size: 12pt;}
+
+TH#THqptCommon1_1 {
+	background-color: #006699;
+	color: #FFFFFF;
+	text-align: left;
+	text-indent: 1em;
+	font-size: 10pt;
+	width=33%
+}
+
+TD#TDeqptCommon1_1 {
+	background-color: #CCCCCC;
+	color: #000000;
+	font-weight: bold;
+	padding: 2px;
+	font-size: 10pt;
+	text-align: left;
+	width=50%;
+}
+
+TD#TDeqptCommon1_2 {
+	background-color: #FFFFFF;
+	width: 100;
+	padding: 1px;
+	font-size: 10pt;
+	text-align: left;
+}
+
+TD#TDeqptCommon1_3 {
+	background-color: #CCCCCC;
+	color: #000000;
+	font-weight: bold;
+	padding: 2px;
+	font-size: 10pt;
+	text-align: left;
+	width=25%;
+}
+
+
+/**/
+TH#THqptCommon2 {
+	background-color: #CCCCCC;
+	color: #000000;
+	font-weight: bold;
+	padding: 2px;
+	font-size: 10pt;
+	text-align: left;
+}
+
+TH#THeqptCommon2_2 {
+	background-color: #CCCCCC;
+	color: #000000;
+	font-weight: bold;
+	padding: 2px;
+	font-size: 10pt;
+	text-align: center;
+	width=33%;
+}
+
+TD#TDeqptCommon2_1 {
+	background-color: #CCCCCC;
+	color: #000000;
+	font-weight: bold;
+	padding: 2px;
+	font-size: 10pt;
+	text-align: center;
+	width=33%;
+}
+
+/**/
+TH#THeqptCommon3 {
+	background-color: #CCCCCC;
+	color: #000000;
+	font-weight: bold;
+	padding: 2px;
+	font-size: 10pt;
+	text-align: center;
+	width = 14%;
+}
+
+TD#TDeqptCommon3_1 {
+	background-color: #FFFFFF;
+	width: 14%;
+	padding: 1px;
+	font-size: 10pt;
+	text-align: left;
+}
+
+/**/
+TH#THeqptCommon4_1 {
+	background-color: #CCCCCC;
+	color: #000000;
+	font-weight: bold;
+	padding: 2px;
+	font-size: 10pt;
+	text-align: center;
+	width=15%;
+}
+TH#THeqptCommon4_2 {
+	background-color: #CCCCCC;
+	color: #000000;
+	font-weight: bold;
+	padding: 2px;
+	font-size: 10pt;
+	text-align: center;
+	width=40%;
+}
+
+TD#TDeqptCommon4_1 {
+	background-color: #FFFFFF;
+	width: 15%;
+	padding: 1px;
+	font-size: 10pt;
+	text-align: left;
+}
+TD#TDeqptCommon4_2 {
+	background-color: #FFFFFF;
+	width: 40%;
+	padding: 1px;
+	font-size: 10pt;
+	text-align: left;
+}
+
