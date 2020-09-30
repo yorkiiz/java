@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context" xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/tx
+        http://www.springframework.org/schema/tx/spring-tx.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        "
+       default-autowire="byType">
+
+
+    <bean id="mainJobService" class="com.matrix.cim.job.MainProcessJob"></bean>
+    <!-- 比较任务 -->
+    <bean id="importOneJob" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+        <property name="targetObject" ref="mainJobService"/>
+        <property name="targetMethod" value="monitor"/>
+        <property name="concurrent" value="false"/>
+        <property name="arguments">
+            <list></list>
+        </property>
+    </bean>
+
+    <bean id="cronTrigger" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+        <property name="jobDetail" ref="importOneJob"/>
+        <property name="cronExpression" value="0 0 7 * * ?"/>
+    </bean>
+
+    <!-- 定时log -->
+    <bean id="printLogJob" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+        <property name="targetObject" ref="mainJobService"/>
+        <property name="targetMethod" value="printJob"/>
+        <property name="concurrent" value="false"/>
+        <property name="arguments">
+            <list></list>
+        </property>
+    </bean>
+
+    <bean id="printLogTrigger" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+        <property name="jobDetail" ref="printLogJob"/>
+        <property name="cronExpression" value="0 /1 * * * ?"/>
+    </bean>
+
+    <bean id="schedulerFactoryBean" class="org.springframework.scheduling.quartz.SchedulerFactoryBean"
+          autowire="no">
+        <property name="triggers">
+            <list>
+                <ref bean="cronTrigger"/>
+                <ref bean="printLogTrigger"/>
+            </list>
+        </property>
+    </bean>
+
+
+
+</beans>

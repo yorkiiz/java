@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+    <context:property-placeholder location="classpath:jdbc-mes.properties"/>
+    <context:component-scan base-package="com.matrix.cim">
+    </context:component-scan>
+
+    <!-- 配置dbcp数据源连接池 -->
+    <bean id="mesDataSource" class="com.alibaba.druid.pool.DruidDataSource" init-method="init" destroy-method="close">
+        <property name="driverClassName" value="${mes.jdbc.driverClassName}"/>
+        <property name="url" value="${mes.jdbc.url}"/>
+        <property name="username" value="${mes.jdbc.username}"/>
+        <property name="password" value="${mes.jdbc.password}"/>
+        <property name="filters" value="${mes.jdbc.filters}"/>
+        <property name="maxActive" value="${mes.jdbc.maxActive}"/>
+        <property name="initialSize" value="${mes.jdbc.initialSize}"/>
+        <property name="maxWait" value="${mes.jdbc.maxWait}"/>
+        <property name="minIdle" value="${mes.jdbc.minIdle}"/>
+        <!-- 配置间隔多久启动一次DestroyThread，对连接池内的连接才进行一次检测，单位是毫秒。
+            检测时:1.如果连接空闲并且超过minIdle以外的连接，如果空闲时间超过minEvictableIdleTimeMillis设置的值则直接物理关闭。2.在minIdle以内的不处理。
+        -->
+        <property name="timeBetweenEvictionRunsMillis" value="${mes.jdbc.timeBetweenEvictionRunsMillis}"/>
+        <!-- 配置一个连接在池中最大空闲时间，单位是毫秒 -->
+        <property name="minEvictableIdleTimeMillis" value="${mes.jdbc.minEvictableIdleTimeMillis}"/>
+        <property name="validationQuery" value="${mes.jdbc.validationQuery}"/>
+        <property name="testWhileIdle" value="${mes.jdbc.testWhileIdle}"/>
+        <property name="testOnBorrow" value="${mes.jdbc.testOnBorrow}"/>
+        <property name="testOnReturn" value="${mes.jdbc.testOnReturn}"/>
+        <property name="poolPreparedStatements" value="${mes.jdbc.poolPreparedStatements}"/>
+        <property name="maxPoolPreparedStatementPerConnectionSize"
+                  value="${mes.jdbc.maxPoolPreparedStatementPerConnectionSize}"/>
+    </bean>
+
+    <bean id="mesJdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+        <property name="dataSource" ref="mesDataSource"/>
+    </bean>
+
+</beans>
