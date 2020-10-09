@@ -1,0 +1,31 @@
+
+@Component
+public class SpringContext implements ApplicationContextAware {
+ 
+    private static ApplicationContext context;
+ 
+    @Override
+    public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
+        context = applicationContext;
+    }
+ 
+    // 获取ApplicationContext
+    public static ApplicationContext getContext() {
+        return context;
+    }
+ 
+    // 根据beanId获取javaBean
+    public static <T> T getBean(String name) {
+        return (T) context.getBean(name);
+    }
+ 
+    // 根据Class获取javaBean
+    public static <T> T getBean(Class<T> clazz) {
+        return context.getBean(clazz);
+    }
+ 
+    // 根据beanId和Class获取javaBean
+    public static <T> T getBean(String name, Class<T> clazz) {
+        return context.getBean(name, clazz);
+    }
+}
