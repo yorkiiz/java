@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struct SYSTEM "lcd-struct.dtd" [
+<!ENTITY % xlglen SYSTEM "xlglen.dtd"> %xlglen;
+]>
+<struct name="transaction">
+    <field name="trx_id" size="&TRX_ID_LEN;">BPIQCRRD</field>
+    <field name="type_id" size="&TRX_TYP_LEN;">I</field>
+    <field name="crr_id" size="&CRR_ID_LEN;"/>
+    <field name="lot_id" size="&LOT_ID_LEN;"/>
+    <field name="splt_id" size="&SPLT_ID_LEN;"/>
+    <field name="inpr_sht_flg" size="1"/>
+    <field name="logon_eqpt_id" size="&EQPT_ID_LEN;"/>
+    <field name="logon_date" size="&DATE_LEN;"/>
+    <field name="logon_time" size="&TIME_LEN;"/>
+    <field name="eqpt_id" size="&EQPT_ID_LEN;"/>
+    <field name="eqpt_port_id" size="&PORT_ID_LEN;"/>
+</struct>

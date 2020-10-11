@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struct SYSTEM "lcd-struct.dtd" [
+  <!ENTITY % alglen SYSTEM "alglen.dtd"> %alglen;
+]>
+<struct name="transaction">
+  <field name="trx_id" size="&TRX_ID_LEN;"/>
+  <field name="type_id" size="&TRX_TYP_LEN;"/>
+  <field name="rtn_code" size="&RTN_CODE_LEN;"/>
+  <field name="crr_cnt" size="4"/>
+  <struct name="oary" multiplicity="3000">
+    <field name="pp_maker_code" size="&PP_MAKER_CODE_LEN;"/>
+    <field name="pp_hinmei" size="&PP_HINMEI_LEN;"/>
+    <field name="pp_mtrl_lot_id" size="&PP_MTRL_LOT_ID_LEN;"/>
+    <field name="pp_process" size="1"/>
+    <field name="pp_case_id" size="&PP_CASE_ID_LEN;"/>
+    <field name="pp_type" size="&PP_TYPE_LEN;"/>
+    <field name="pp_type_dsc" size="&CODE_DSC_LEN;"/>
+    <field name="xf_cmd_stat" size="1"/>
+    <field name="sht_cnt" size="&SHT_CNT_LEN;"/>
+    <field name="product_id" size="&PRODUCT_ID_LEN;"/>
+    <field name="hapho_name" size="&HAPHO_NAME_LEN;"/>
+    <field name="lst_stc_in_date" size="&DATE_LEN;"/>
+    <field name="lst_stc_in_time" size="&TIME_LEN;"/>
+    <field name="shelf_id" size="&SHELF_ID_LEN;"/>
+    <field name="pp_cyooti" size="&PP_CYOOTI_LEN;"/>
+    <field name="pp_cell_aid" size="&PP_CELL_AID_LEN;"/>
+    <field name="pp_to_code" size="1"/>
+    <field name="crr_id" size="&CRR_ID_LEN;"/>
+    <field name="position" size="&EQPT_ID_LEN;"/>
+    <field name="port_id" size="&PORT_ID_LEN;"/>
+    <field name="pati_id" size="&PATI_ID_LEN;"/>
+    <field name="zone_id" size="&ZONE_ID_LEN;"/>
+    <field name="receipt_no" size="&RECEIPT_NO_LEN;"/>
+    <field name="ticket_no" size="&AMHS_TICKET_NO_LEN;"/>
+    <field name="xfer_clm_date" size="&DATE_LEN;"/>
+    <field name="xfer_clm_time" size="&TIME_LEN;"/>
+  </struct>
+</struct>

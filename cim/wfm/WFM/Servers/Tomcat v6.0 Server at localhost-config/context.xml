@@ -1,0 +1,33 @@
+<!-- The contents of this file will be loaded for each web application -->
+<Context>
+
+    <!-- Default set of monitored resources -->
+    <WatchedResource>WEB-INF/web.xml</WatchedResource>
+	
+    <!-- Uncomment this to disable session persistence across Tomcat restarts -->
+    <!--
+    <Manager pathname="" />
+    -->
+
+    <!-- Uncomment this to enable Comet connection tacking (provides events
+         on session expiration as well as webapp lifecycle) -->
+    <!--
+    <Valve className="org.apache.catalina.valves.CometConnectionManagerValve" />
+    -->
+    
+    <Resource name="jdbc/FD1BPPT" auth="Container" type="javax.sql.DataSource"
+      factory="org.apache.tomcat.dbcp.dbcp.BasicDataSourceFactory"
+      driverClassName="com.ibm.db2.jcc.DB2Driver"
+      url="jdbc:db2://10.10.6.10:58231/FD1BPPT"
+      username="fd1bmes1" password="fd1bmes1"
+      maxActive="10" maxIdle="5" maxWait="-1" />    
+      
+    <Resource name="jdbc/FD1BHIS" auth="Container" type="javax.sql.DataSource"
+      factory="org.apache.tomcat.dbcp.dbcp.BasicDataSourceFactory"
+      driverClassName="com.ibm.db2.jcc.DB2Driver"
+      url="jdbc:db2://10.10.6.10:58232/FD1BHIS"
+      username="fd1bmes1" password="fd1bmes1"
+      maxActive="10" maxIdle="5" maxWait="-1" />    
+      
+
+</Context>

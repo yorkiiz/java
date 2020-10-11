@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struct SYSTEM "lcd-struct.dtd" [
+<!ENTITY % xlglen SYSTEM "xlglen.dtd"> %xlglen;
+]>
+<struct name="transaction">
+    <field name="trx_id" size="&TRX_ID_LEN;">BPIWIPEQ</field>
+    <field name="type_id" size="&TRX_TYP_LEN;">I</field>
+    <field name="eqpt_id" size="&EQPT_ID_LEN;"/>
+    <field name="all_wip_flg" size="1"/>
+    <field name="crr_set_code" size="&CRR_SET_CODE_LEN;"/>
+    <field name="ext_crr_stat" size="1"/>
+</struct>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struct SYSTEM "lcd-struct.dtd" [
+ <!ENTITY % xlglen SYSTEM "xlglen.dtd"> %xlglen;
+]>
+<struct name="transaction">
+    <field name="trx_id" size="&TRX_ID_LEN;">BPIOPSHT</field>
+    <field name="type_id" size="&TRX_TYP_LEN;">O</field>
+    <field name="rtn_code" size="&RTN_CODE_LEN;"/>
+    <field name="rtn_mesg" size="&RTN_MESG_LEN;"/>
+    <field name="sht_id" size="&SHT_ID_LEN;"/>
+  <field name="ope_cnt" size="4"/>
+  <struct name="oary" multiplicity="1000">
+    <field name="clm_cate" size="&CODE_CATE_LEN;"/>
+    <field name="clm_user" size="&USER_ID_LEN;"/>
+    <field name="clm_date" size="&DATE_LEN;"/>
+    <field name="clm_time" size="&TIME_LEN;"/>
+    <field name="sgr_id" size="&SGR_ID_LEN;"/>
+    <field name="lot_id" size="&LOT_ID_LEN;"/>
+    <field name="splt_id" size="&SPLT_ID_LEN;"/>
+    <field name="crr_id" size="&CRR_ID_LEN;"/>
+    <field name="slot_no" size="&SLOT_NO_LEN;"/>
+    <field name="ppbox_id" size="&PPBOX_ID_LEN;"/>
+    <field name="pnl_cnt" size="&PNL_CNT_LEN;"/>
+    <field name="route_id" size="&ROUTE_ID_LEN;"/>
+    <field name="route_ver" size="&ROUTE_VER_LEN;"/>
+    <field name="ope_no" size="&OPE_NO_LEN;"/>
+    <field name="ope_id" size="&OPE_ID_LEN;"/>
+    <field name="ope_ver" size="&OPE_VER_LEN;"/>
+    <field name="proc_id" size="&PROC_ID_LEN;"/>
+    <field name="eqptg_id" size="&EQPTG_ID_LEN;"/>
+    <field name="eqpt_id" size="&EQPT_ID_LEN;"/>
+    <field name="eqpt_port_id" size="&PORT_ID_LEN;"/>
+    <field name="pep_lvl" size="&PEP_LVL_LEN;"/>
+    <field name="evt_cate" size="&CODE_CATE_LEN;"/>
+    <field name="evt_code" size="&CODE_LEN;"/>
+    <field name="evt_user" size="&USER_ID_LEN;"/>
+    <field name="evt_date" size="&DATE_LEN;"/>
+    <field name="evt_time" size="&TIME_LEN;"/>
+    <field name="evt_mfdt" size="&DATE_LEN;"/>
+    <field name="evt_mfwk" size="&MFGWEEK_LEN;"/>
+    <field name="evt_mfmn" size="&MFGMONTH_LEN;"/>
+    <field name="evt_mfsh" size="&MFGSHOP_LEN;"/>
+    <field name="product_id" size="&PRODUCT_ID_LEN;"/>
+    <field name="product_cate" size="&CODE_LEN;"/>
+    <field name="ec_code" size="&EC_CODE_LEN;"/>
+    <field name="prty" size="&CODE_LEN;"/>
+    <field name="ds_recipe_id" size="&RECIPE_ID_LEN;"/>
+    <field name="ac_recipe_id" size="&RECIPE_ID_LEN;"/>
+    <field name="rep_cate" size="&REPORT_TRX_CATE;"/>
+    <field name="dept_code" size="&DEPT_CODE_LEN;"/>
+    <field name="rpt_user" size="&USER_ID_LEN;"/>
+    <field name="sht_ope_msg" size="&SHT_OPE_MSG_LEN;"/>
+    <field name="owner_id" size="&OWNER_ID_LEN;"/>
+    <field name="sht_stat" size="&SHT_STAT_LEN;"/>
+    <field name="nx_eqpt_id" size="&EQPT_ID_LEN;"/>
+    <field name="reproc_flg" size="1"/>
+    <field name="unit" size="&CODE_LEN;"/>
+  </struct>
+</struct>

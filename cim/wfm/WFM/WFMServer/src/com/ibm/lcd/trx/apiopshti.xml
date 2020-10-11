@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struct SYSTEM "lcd-struct.dtd" [
+<!ENTITY % xlglen SYSTEM "xlglen.dtd"> %xlglen;
+]>
+<struct name="transaction">
+    <field name="trx_id" size="&TRX_ID_LEN;">BPIOPSHT</field>
+    <field name="type_id" size="&TRX_TYP_LEN;">I</field>
+    <field name="sht_id" size="&SHT_ID_LEN;"/>
+</struct>

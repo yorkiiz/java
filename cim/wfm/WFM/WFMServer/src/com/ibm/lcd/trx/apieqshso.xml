@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struct SYSTEM "lcd-struct.dtd" [
+  <!ENTITY % xlglen SYSTEM "xlglen.dtd"> %xlglen;
+]>
+<struct name="transaction">
+    <field name="trx_id" size="&TRX_ID_LEN;">BPIEQSHS</field>
+    <field name="type_id" size="&TRX_TYP_LEN;">O</field>
+    <field name="rtn_code" size="&RTN_CODE_LEN;"/>
+    <field name="rtn_mesg" size="&RTN_MESG_LEN;"/>
+    <field name="eqpt_id" size="&EQPT_ID_LEN;"/>
+  	<field name="his_cnt" size="4"/>
+  <struct name="oary" multiplicity="1000">
+    <field name="clm_date" size="&DATE_LEN;"/>
+    <field name="clm_time" size="&TIME_LEN;"/>
+    <field name="clm_mfdt" size="&DATE_LEN;"/>
+    <field name="clm_mfwk" size="&MFGWEEK_LEN;"/>
+    <field name="clm_mfmn" size="&MFGMONTH_LEN;"/>
+    <field name="clm_mfsh" size="&MFGSHOP_LEN;"/>
+    <field name="report_date" size="&DATE_LEN;"/>
+    <field name="report_time" size="&TIME_LEN;"/>
+    <field name="report_mfsh" size="&MFGSHOP_LEN;"/>
+    <field name="eqpt_stat" size="&EQPT_STAT_LEN;"/>
+    <field name="eqpt_sub_stat" size="&EQPT_STAT_LEN;"/>
+    <field name="eqpt_stat_dsc" size="&CODE_DSC_LEN;"/>
+    <field name="eqpt_mode" size="&EQPT_MODE_LEN;"/>
+    <field name="pv_eqpt_stat" size="&EQPT_STAT_LEN;"/>
+    <field name="pv_eqpt_sub_stat" size="&EQPT_STAT_LEN;"/>
+    <field name="shtng_date" size="&DATE_LEN;"/>
+    <field name="shtng_time" size="&TIME_LEN;"/>
+    <field name="shtng_user" size="&USER_ID_LEN;"/>
+    <field name="reason_code" size="&CODE_LEN;"/>
+    <field name="clm_user" size="&USER_ID_LEN;"/>
+    <field name="comment" size="&COMMENT_LEN;"/>
+    <field name="eqpt_id" size="&EQPT_ID_LEN;"/>
+  </struct>
+</struct>

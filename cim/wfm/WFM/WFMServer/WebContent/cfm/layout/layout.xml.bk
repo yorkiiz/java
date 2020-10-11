@@ -1,0 +1,2931 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<layout>
+  <area id="Fab 1F" image="TFT_LEFT">
+    <equipment id="A1ANN110" type="equipment">
+      <shape>
+        <left>13</left>
+        <top>291</top>
+        <right>62</right>
+        <bottom>334</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1ARY110" type="equipment">
+      <shape>
+        <left>22</left>
+        <top>574</top>
+        <right>65</right>
+        <bottom>607</bottom>
+      </shape>
+      <ports>
+        <port id="01" image="PORT">
+          <shape>
+            <left>54</left>
+            <top>590</top>
+            <right>65</right>
+            <bottom>601</bottom>
+          </shape>
+        </port>
+        <port id="02" image="PORT">
+          <shape>
+            <left>54</left>
+            <top>580</top>
+            <right>65</right>
+            <bottom>591</bottom>
+          </shape>
+        </port>
+      </ports>
+    </equipment>
+    <equipment id="A1ARY120" type="equipment">
+      <shape>
+        <left>22</left>
+        <top>526</top>
+        <right>65</right>
+        <bottom>559</bottom>
+      </shape>
+      <ports>
+        <port id="01" image="PORT">
+          <shape>
+            <left>54</left>
+            <top>542</top>
+            <right>65</right>
+            <bottom>553</bottom>
+          </shape>
+        </port>
+        <port id="02" image="PORT">
+          <shape>
+            <left>54</left>
+            <top>532</top>
+            <right>65</right>
+            <bottom>543</bottom>
+          </shape>
+        </port>
+      </ports>
+    </equipment>
+    <equipment id="A1ARY130" type="equipment">
+      <shape>
+        <left>22</left>
+        <top>478</top>
+        <right>65</right>
+        <bottom>512</bottom>
+      </shape>
+      <ports>
+        <port id="01" image="PORT">
+          <shape>
+            <left>54</left>
+            <top>494</top>
+            <right>65</right>
+            <bottom>505</bottom>
+          </shape>
+        </port>
+        <port id="02" image="PORT">
+          <shape>
+            <left>54</left>
+            <top>484</top>
+            <right>65</right>
+            <bottom>495</bottom>
+          </shape>
+        </port>
+      </ports>
+    </equipment>
+    <equipment id="A1CDM114" type="equipment">
+      <shape>
+        <left>536</left>
+        <top>333</top>
+        <right>560</right>
+        <bottom>366</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CDM115" type="equipment">
+      <shape>
+        <left>538</left>
+        <top>365</top>
+        <right>560</right>
+        <bottom>409</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CDM116" type="equipment">
+      <shape>
+        <left>541</left>
+        <top>408</top>
+        <right>608</right>
+        <bottom>425</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CDM117" type="equipment">
+      <shape>
+        <left>535</left>
+        <top>424</top>
+        <right>566</right>
+        <bottom>458</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CDM119" type="equipment">
+      <shape>
+        <left>588</left>
+        <top>382</top>
+        <right>617</right>
+        <bottom>409</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CDM11B" type="equipment">
+      <shape>
+        <left>588</left>
+        <top>333</top>
+        <right>613</right>
+        <bottom>365</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CDM121" type="equipment">
+      <shape>
+        <left>700</left>
+        <top>245</top>
+        <right>757</right>
+        <bottom>261</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CDM122" type="equipment">
+      <shape>
+        <left>705</left>
+        <top>259</top>
+        <right>729</right>
+        <bottom>310</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CDM123" type="equipment">
+      <shape>
+        <left>705</left>
+        <top>309</top>
+        <right>729</right>
+        <bottom>328</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CDM124" type="equipment">
+      <shape>
+        <left>691</left>
+        <top>333</top>
+        <right>714</right>
+        <bottom>365</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CDM125" type="equipment">
+      <shape>
+        <left>691</left>
+        <top>364</top>
+        <right>714</right>
+        <bottom>409</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CDM126" type="equipment">
+      <shape>
+        <left>695</left>
+        <top>408</top>
+        <right>761</right>
+        <bottom>425</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CDM127" type="equipment">
+      <shape>
+        <left>689</left>
+        <top>424</top>
+        <right>719</right>
+        <bottom>458</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CDM129" type="equipment">
+      <shape>
+        <left>741</left>
+        <top>382</top>
+        <right>771</right>
+        <bottom>409</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CDM12B" type="equipment">
+      <shape>
+        <left>742</left>
+        <top>333</top>
+        <right>766</right>
+        <bottom>365</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CDM12C" type="equipment">
+      <shape>
+        <left>741</left>
+        <top>311</top>
+        <right>763</right>
+        <bottom>334</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CDM131" type="equipment">
+      <shape>
+        <left>854</left>
+        <top>244</top>
+        <right>911</right>
+        <bottom>260</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CDM132" type="equipment">
+      <shape>
+        <left>859</left>
+        <top>259</top>
+        <right>883</right>
+        <bottom>310</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CDM133" type="equipment">
+      <shape>
+        <left>859</left>
+        <top>309</top>
+        <right>883</right>
+        <bottom>329</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CDM135" type="equipment">
+      <shape>
+        <left>846</left>
+        <top>364</top>
+        <right>869</right>
+        <bottom>408</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CDM136" type="equipment">
+      <shape>
+        <left>849</left>
+        <top>408</top>
+        <right>915</right>
+        <bottom>425</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CDM137" type="equipment">
+      <shape>
+        <left>842</left>
+        <top>423</top>
+        <right>873</right>
+        <bottom>458</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CDM139" type="equipment">
+      <shape>
+        <left>896</left>
+        <top>382</top>
+        <right>925</right>
+        <bottom>409</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CDM13B" type="equipment">
+      <shape>
+        <left>896</left>
+        <top>333</top>
+        <right>920</right>
+        <bottom>365</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CDM13C" type="equipment">
+      <shape>
+        <left>896</left>
+        <top>311</top>
+        <right>917</right>
+        <bottom>335</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CDM141" type="equipment">
+      <shape>
+        <left>1008</left>
+        <top>244</top>
+        <right>1065</right>
+        <bottom>260</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CDM142" type="equipment">
+      <shape>
+        <left>1013</left>
+        <top>260</top>
+        <right>1037</right>
+        <bottom>311</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CDM143" type="equipment">
+      <shape>
+        <left>1013</left>
+        <top>309</top>
+        <right>1037</right>
+        <bottom>328</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CDM145" type="equipment">
+      <shape>
+        <left>1000</left>
+        <top>364</top>
+        <right>1022</right>
+        <bottom>409</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CDM146" type="equipment">
+      <shape>
+        <left>1004</left>
+        <top>408</top>
+        <right>1069</right>
+        <bottom>425</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CDM147" type="equipment">
+      <shape>
+        <left>997</left>
+        <top>424</top>
+        <right>1028</right>
+        <bottom>458</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CDM148" type="equipment">
+      <shape>
+        <left>1045</left>
+        <top>424</top>
+        <right>1076</right>
+        <bottom>458</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CDM149" type="equipment">
+      <shape>
+        <left>1050</left>
+        <top>382</top>
+        <right>1079</right>
+        <bottom>409</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CDM14A" type="equipment">
+      <shape>
+        <left>1050</left>
+        <top>364</top>
+        <right>1077</right>
+        <bottom>383</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CDM14B" type="equipment">
+      <shape>
+        <left>1050</left>
+        <top>333</top>
+        <right>1074</right>
+        <bottom>366</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CDM14C" type="equipment">
+      <shape>
+        <left>1050</left>
+        <top>311</top>
+        <right>1070</right>
+        <bottom>334</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CDM151" type="equipment">
+      <shape>
+        <left>1162</left>
+        <top>245</top>
+        <right>1219</right>
+        <bottom>261</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CDM152" type="equipment">
+      <shape>
+        <left>1167</left>
+        <top>259</top>
+        <right>1191</right>
+        <bottom>310</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CDM155" type="equipment">
+      <shape>
+        <left>1153</left>
+        <top>364</top>
+        <right>1176</right>
+        <bottom>408</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CDM156" type="equipment">
+      <shape>
+        <left>1158</left>
+        <top>408</top>
+        <right>1223</right>
+        <bottom>425</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CDM157" type="equipment">
+      <shape>
+        <left>1151</left>
+        <top>424</top>
+        <right>1182</right>
+        <bottom>458</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CDM158" type="equipment">
+      <shape>
+        <left>1199</left>
+        <top>424</top>
+        <right>1230</right>
+        <bottom>458</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CDM159" type="equipment">
+      <shape>
+        <left>1204</left>
+        <top>382</top>
+        <right>1233</right>
+        <bottom>409</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CDM15A" type="equipment">
+      <shape>
+        <left>1204</left>
+        <top>365</top>
+        <right>1232</right>
+        <bottom>384</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CDM15B" type="equipment">
+      <shape>
+        <left>1204</left>
+        <top>333</top>
+        <right>1228</right>
+        <bottom>365</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CDM15C" type="equipment">
+      <shape>
+        <left>1204</left>
+        <top>311</top>
+        <right>1225</right>
+        <bottom>334</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CLN110" type="equipment">
+      <shape>
+        <left>467</left>
+        <top>265</top>
+        <right>519</right>
+        <bottom>316</bottom>
+      </shape>
+      <ports>
+        <port id="01" image="PORT">
+          <shape>
+            <left>471</left>
+            <top>249</top>
+            <right>482</right>
+            <bottom>260</bottom>
+          </shape>
+        </port>
+        <port id="02" image="PORT">
+          <shape>
+            <left>504</left>
+            <top>249</top>
+            <right>515</right>
+            <bottom>260</bottom>
+          </shape>
+        </port>
+      </ports>
+    </equipment>
+    <equipment id="A1CLN111" type="equipment">
+      <shape>
+        <left>464</left>
+        <top>246</top>
+        <right>490</right>
+        <bottom>261</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CLN113" type="equipment">
+      <shape>
+        <left>496</left>
+        <top>247</top>
+        <right>522</right>
+        <bottom>261</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CLN120" type="equipment">
+      <shape>
+        <left>622</left>
+        <top>265</top>
+        <right>673</right>
+        <bottom>317</bottom>
+      </shape>
+      <ports>
+        <port id="01" image="PORT">
+          <shape>
+            <left>626</left>
+            <top>249</top>
+            <right>637</right>
+            <bottom>260</bottom>
+          </shape>
+        </port>
+        <port id="02" image="PORT">
+          <shape>
+            <left>659</left>
+            <top>249</top>
+            <right>670</right>
+            <bottom>260</bottom>
+          </shape>
+        </port>
+      </ports>
+    </equipment>
+    <equipment id="A1CLN121" type="equipment">
+      <shape>
+        <left>618</left>
+        <top>246</top>
+        <right>646</right>
+        <bottom>261</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CLN123" type="equipment">
+      <shape>
+        <left>651</left>
+        <top>247</top>
+        <right>677</right>
+        <bottom>261</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CLN130" type="equipment">
+      <shape>
+        <left>776</left>
+        <top>265</top>
+        <right>827</right>
+        <bottom>316</bottom>
+      </shape>
+      <ports>
+        <port id="01" image="PORT">
+          <shape>
+            <left>780</left>
+            <top>249</top>
+            <right>791</right>
+            <bottom>260</bottom>
+          </shape>
+        </port>
+        <port id="02" image="PORT">
+          <shape>
+            <left>813</left>
+            <top>249</top>
+            <right>824</right>
+            <bottom>260</bottom>
+          </shape>
+        </port>
+      </ports>
+    </equipment>
+    <equipment id="A1CLN131" type="equipment">
+      <shape>
+        <left>772</left>
+        <top>247</top>
+        <right>799</right>
+        <bottom>261</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CLN133" type="equipment">
+      <shape>
+        <left>806</left>
+        <top>247</top>
+        <right>832</right>
+        <bottom>261</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CLN140" type="equipment">
+      <shape>
+        <left>930</left>
+        <top>265</top>
+        <right>981</right>
+        <bottom>316</bottom>
+      </shape>
+      <ports>
+        <port id="01" image="PORT">
+          <shape>
+            <left>935</left>
+            <top>249</top>
+            <right>946</right>
+            <bottom>260</bottom>
+          </shape>
+        </port>
+        <port id="02" image="PORT">
+          <shape>
+            <left>967</left>
+            <top>249</top>
+            <right>978</right>
+            <bottom>260</bottom>
+          </shape>
+        </port>
+      </ports>
+    </equipment>
+    <equipment id="A1CLN141" type="equipment">
+      <shape>
+        <left>927</left>
+        <top>247</top>
+        <right>953</right>
+        <bottom>261</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CLN143" type="equipment">
+      <shape>
+        <left>960</left>
+        <top>247</top>
+        <right>987</right>
+        <bottom>261</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CLN150" type="equipment">
+      <shape>
+        <left>1085</left>
+        <top>265</top>
+        <right>1135</right>
+        <bottom>317</bottom>
+      </shape>
+      <ports>
+        <port id="01" image="PORT">
+          <shape>
+            <left>1089</left>
+            <top>249</top>
+            <right>1100</right>
+            <bottom>260</bottom>
+          </shape>
+        </port>
+        <port id="02" image="PORT">
+          <shape>
+            <left>1121</left>
+            <top>249</top>
+            <right>1132</right>
+            <bottom>260</bottom>
+          </shape>
+        </port>
+      </ports>
+    </equipment>
+    <equipment id="A1CLN151" type="equipment">
+      <shape>
+        <left>1081</left>
+        <top>246</top>
+        <right>1107</right>
+        <bottom>261</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CLN153" type="equipment">
+      <shape>
+        <left>1114</left>
+        <top>247</top>
+        <right>1140</right>
+        <bottom>261</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CST110" type="equipment">
+      <shape>
+        <left>24</left>
+        <top>183</top>
+        <right>47</right>
+        <bottom>250</bottom>
+      </shape>
+      <ports>
+        <port id="01" image="PORT">
+          <shape>
+            <left>30</left>
+            <top>172</top>
+            <right>41</right>
+            <bottom>183</bottom>
+          </shape>
+        </port>
+        <port id="02" image="PORT">
+          <shape>
+            <left>30</left>
+            <top>249</top>
+            <right>41</right>
+            <bottom>260</bottom>
+          </shape>
+        </port>
+      </ports>
+    </equipment>
+    <equipment id="A1CVD110" type="equipment">
+      <shape>
+        <left>718</left>
+        <top>117</top>
+        <right>746</right>
+        <bottom>160</bottom>
+      </shape>
+      <ports>
+        <port id="01" image="PORT">
+          <shape>
+            <left>711</left>
+            <top>177</top>
+            <right>722</right>
+            <bottom>188</bottom>
+          </shape>
+        </port>
+        <port id="02" image="PORT">
+          <shape>
+            <left>721</left>
+            <top>177</top>
+            <right>732</right>
+            <bottom>188</bottom>
+          </shape>
+        </port>
+        <port id="03" image="PORT">
+          <shape>
+            <left>731</left>
+            <top>177</top>
+            <right>742</right>
+            <bottom>188</bottom>
+          </shape>
+        </port>
+        <port id="04" image="PORT">
+          <shape>
+            <left>741</left>
+            <top>177</top>
+            <right>752</right>
+            <bottom>188</bottom>
+          </shape>
+        </port>
+      </ports>
+    </equipment>
+    <equipment id="A1CVD111" type="equipment">
+      <shape>
+        <left>703</left>
+        <top>175</top>
+        <right>761</right>
+        <bottom>190</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CVD112" type="equipment">
+      <shape>
+        <left>714</left>
+        <top>160</top>
+        <right>732</right>
+        <bottom>176</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CVD113" type="equipment">
+      <shape>
+        <left>732</left>
+        <top>160</top>
+        <right>750</right>
+        <bottom>175</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CVD115" type="equipment">
+      <shape>
+        <left>724</left>
+        <top>97</top>
+        <right>739</right>
+        <bottom>119</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CVD117" type="equipment">
+      <shape>
+        <left>697</left>
+        <top>123</top>
+        <right>719</right>
+        <bottom>138</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CVD118" type="equipment">
+      <shape>
+        <left>745</left>
+        <top>123</top>
+        <right>767</right>
+        <bottom>138</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CVD119" type="equipment">
+      <shape>
+        <left>746</left>
+        <top>138</top>
+        <right>767</right>
+        <bottom>155</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CVD140" type="equipment">
+      <shape>
+        <left>461</left>
+        <top>117</top>
+        <right>490</right>
+        <bottom>161</bottom>
+      </shape>
+      <ports>
+        <port id="01" image="PORT">
+          <shape>
+            <left>454</left>
+            <top>177</top>
+            <right>465</right>
+            <bottom>188</bottom>
+          </shape>
+        </port>
+        <port id="02" image="PORT">
+          <shape>
+            <left>464</left>
+            <top>177</top>
+            <right>475</right>
+            <bottom>188</bottom>
+          </shape>
+        </port>
+        <port id="03" image="PORT">
+          <shape>
+            <left>474</left>
+            <top>177</top>
+            <right>485</right>
+            <bottom>188</bottom>
+          </shape>
+        </port>
+        <port id="04" image="PORT">
+          <shape>
+            <left>484</left>
+            <top>177</top>
+            <right>495</right>
+            <bottom>188</bottom>
+          </shape>
+        </port>
+      </ports>
+    </equipment>
+    <equipment id="A1CVD141" type="equipment">
+      <shape>
+        <left>446</left>
+        <top>175</top>
+        <right>503</right>
+        <bottom>190</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CVD142" type="equipment">
+      <shape>
+        <left>457</left>
+        <top>160</top>
+        <right>475</right>
+        <bottom>176</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CVD143" type="equipment">
+      <shape>
+        <left>474</left>
+        <top>160</top>
+        <right>493</right>
+        <bottom>176</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CVD145" type="equipment">
+      <shape>
+        <left>467</left>
+        <top>97</top>
+        <right>482</right>
+        <bottom>118</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CVD146" type="equipment">
+      <shape>
+        <left>440</left>
+        <top>139</top>
+        <right>462</right>
+        <bottom>154</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CVD147" type="equipment">
+      <shape>
+        <left>441</left>
+        <top>123</top>
+        <right>462</right>
+        <bottom>138</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CVD148" type="equipment">
+      <shape>
+        <left>488</left>
+        <top>123</top>
+        <right>509</right>
+        <bottom>138</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CVD149" type="equipment">
+      <shape>
+        <left>488</left>
+        <top>139</top>
+        <right>510</right>
+        <bottom>154</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CVD130" type="equipment">
+      <shape>
+        <left>546</left>
+        <top>117</top>
+        <right>575</right>
+        <bottom>162</bottom>
+      </shape>
+      <ports>
+        <port id="01" image="PORT">
+          <shape>
+            <left>540</left>
+            <top>177</top>
+            <right>551</right>
+            <bottom>188</bottom>
+          </shape>
+        </port>
+        <port id="02" image="PORT">
+          <shape>
+            <left>550</left>
+            <top>177</top>
+            <right>561</right>
+            <bottom>188</bottom>
+          </shape>
+        </port>
+        <port id="03" image="PORT">
+          <shape>
+            <left>560</left>
+            <top>177</top>
+            <right>571</right>
+            <bottom>188</bottom>
+          </shape>
+        </port>
+        <port id="04" image="PORT">
+          <shape>
+            <left>570</left>
+            <top>177</top>
+            <right>581</right>
+            <bottom>188</bottom>
+          </shape>
+        </port>
+      </ports>
+    </equipment>
+    <equipment id="A1CVD131" type="equipment">
+      <shape>
+        <left>532</left>
+        <top>175</top>
+        <right>589</right>
+        <bottom>190</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CVD132" type="equipment">
+      <shape>
+        <left>543</left>
+        <top>160</top>
+        <right>561</right>
+        <bottom>176</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CVD133" type="equipment">
+      <shape>
+        <left>560</left>
+        <top>160</top>
+        <right>578</right>
+        <bottom>176</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CVD135" type="equipment">
+      <shape>
+        <left>553</left>
+        <top>97</top>
+        <right>568</right>
+        <bottom>118</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CVD136" type="equipment">
+      <shape>
+        <left>526</left>
+        <top>139</top>
+        <right>547</right>
+        <bottom>155</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CVD137" type="equipment">
+      <shape>
+        <left>526</left>
+        <top>123</top>
+        <right>547</right>
+        <bottom>138</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CVD138" type="equipment">
+      <shape>
+        <left>574</left>
+        <top>123</top>
+        <right>595</right>
+        <bottom>138</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CVD139" type="equipment">
+      <shape>
+        <left>574</left>
+        <top>139</top>
+        <right>595</right>
+        <bottom>154</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CVD120" type="equipment">
+      <shape>
+        <left>632</left>
+        <top>117</top>
+        <right>661</right>
+        <bottom>162</bottom>
+      </shape>
+      <ports>
+        <port id="01" image="PORT">
+          <shape>
+            <left>626</left>
+            <top>177</top>
+            <right>637</right>
+            <bottom>188</bottom>
+          </shape>
+        </port>
+        <port id="02" image="PORT">
+          <shape>
+            <left>636</left>
+            <top>177</top>
+            <right>647</right>
+            <bottom>188</bottom>
+          </shape>
+        </port>
+        <port id="03" image="PORT">
+          <shape>
+            <left>646</left>
+            <top>177</top>
+            <right>657</right>
+            <bottom>188</bottom>
+          </shape>
+        </port>
+        <port id="04" image="PORT">
+          <shape>
+            <left>656</left>
+            <top>177</top>
+            <right>667</right>
+            <bottom>188</bottom>
+          </shape>
+        </port>
+      </ports>
+    </equipment>
+    <equipment id="A1CVD121" type="equipment">
+      <shape>
+        <left>617</left>
+        <top>175</top>
+        <right>675</right>
+        <bottom>190</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CVD122" type="equipment">
+      <shape>
+        <left>629</left>
+        <top>160</top>
+        <right>646</right>
+        <bottom>176</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CVD123" type="equipment">
+      <shape>
+        <left>645</left>
+        <top>160</top>
+        <right>664</right>
+        <bottom>177</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CVD125" type="equipment">
+      <shape>
+        <left>639</left>
+        <top>96</top>
+        <right>654</right>
+        <bottom>118</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CVD126" type="equipment">
+      <shape>
+        <left>612</left>
+        <top>139</top>
+        <right>634</right>
+        <bottom>154</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CVD127" type="equipment">
+      <shape>
+        <left>611</left>
+        <top>123</top>
+        <right>633</right>
+        <bottom>139</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CVD128" type="equipment">
+      <shape>
+        <left>660</left>
+        <top>123</top>
+        <right>681</right>
+        <bottom>138</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CVD129" type="equipment">
+      <shape>
+        <left>660</left>
+        <top>139</top>
+        <right>681</right>
+        <bottom>154</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CVD116" type="equipment">
+      <shape>
+        <left>697</left>
+        <top>139</top>
+        <right>719</right>
+        <bottom>154</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1DRE110" type="equipment">
+      <shape>
+        <left>330</left>
+        <top>91</top>
+        <right>355</right>
+        <bottom>121</bottom>
+      </shape>
+      <ports>
+        <port id="01" image="PORT">
+          <shape>
+            <left>323</left>
+            <top>130</top>
+            <right>334</right>
+            <bottom>141</bottom>
+          </shape>
+        </port>
+        <port id="02" image="PORT">
+          <shape>
+            <left>333</left>
+            <top>130</top>
+            <right>344</right>
+            <bottom>141</bottom>
+          </shape>
+        </port>
+        <port id="03" image="PORT">
+          <shape>
+            <left>343</left>
+            <top>130</top>
+            <right>354</right>
+            <bottom>141</bottom>
+          </shape>
+        </port>
+        <port id="04" image="PORT">
+          <shape>
+            <left>353</left>
+            <top>130</top>
+            <right>364</right>
+            <bottom>141</bottom>
+          </shape>
+        </port>
+      </ports>
+    </equipment>
+    <equipment id="A1DRE150" type="equipment">
+      <shape>
+        <left>38</left>
+        <top>92</top>
+        <right>64</right>
+        <bottom>122</bottom>
+      </shape>
+      <ports>
+        <port id="01" image="PORT">
+          <shape>
+            <left>31</left>
+            <top>130</top>
+            <right>42</right>
+            <bottom>141</bottom>
+          </shape>
+        </port>
+        <port id="02" image="PORT">
+          <shape>
+            <left>41</left>
+            <top>130</top>
+            <right>52</right>
+            <bottom>141</bottom>
+          </shape>
+        </port>
+        <port id="03" image="PORT">
+          <shape>
+            <left>51</left>
+            <top>130</top>
+            <right>62</right>
+            <bottom>141</bottom>
+          </shape>
+        </port>
+        <port id="04" image="PORT">
+          <shape>
+            <left>61</left>
+            <top>130</top>
+            <right>72</right>
+            <bottom>141</bottom>
+          </shape>
+        </port>
+      </ports>
+    </equipment>
+    <equipment id="A1DRE151" type="equipment">
+      <shape>
+        <left>21</left>
+        <top>128</top>
+        <right>81</right>
+        <bottom>143</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1DRE152" type="equipment">
+      <shape>
+        <left>63</left>
+        <top>97</top>
+        <right>83</right>
+        <bottom>112</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1DRE153" type="equipment">
+      <shape>
+        <left>44</left>
+        <top>72</top>
+        <right>58</right>
+        <bottom>93</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1DRE154" type="equipment">
+      <shape>
+        <left>19</left>
+        <top>98</top>
+        <right>39</right>
+        <bottom>112</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1DRE141" type="equipment">
+      <shape>
+        <left>95</left>
+        <top>128</top>
+        <right>155</right>
+        <bottom>143</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1DRE143" type="equipment">
+      <shape>
+        <left>117</left>
+        <top>73</top>
+        <right>131</right>
+        <bottom>92</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1DRE130" type="equipment">
+      <shape>
+        <left>184</left>
+        <top>92</top>
+        <right>210</right>
+        <bottom>121</bottom>
+      </shape>
+      <ports>
+        <port id="01" image="PORT">
+          <shape>
+            <left>177</left>
+            <top>130</top>
+            <right>188</right>
+            <bottom>141</bottom>
+          </shape>
+        </port>
+        <port id="02" image="PORT">
+          <shape>
+            <left>187</left>
+            <top>130</top>
+            <right>198</right>
+            <bottom>141</bottom>
+          </shape>
+        </port>
+        <port id="03" image="PORT">
+          <shape>
+            <left>197</left>
+            <top>130</top>
+            <right>208</right>
+            <bottom>141</bottom>
+          </shape>
+        </port>
+        <port id="04" image="PORT">
+          <shape>
+            <left>207</left>
+            <top>130</top>
+            <right>218</right>
+            <bottom>141</bottom>
+          </shape>
+        </port>
+      </ports>
+    </equipment>
+    <equipment id="A1DRE131" type="equipment">
+      <shape>
+        <left>168</left>
+        <top>128</top>
+        <right>227</right>
+        <bottom>144</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1DRE132" type="equipment">
+      <shape>
+        <left>209</left>
+        <top>98</top>
+        <right>228</right>
+        <bottom>113</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1DRE133" type="equipment">
+      <shape>
+        <left>189</left>
+        <top>73</top>
+        <right>204</right>
+        <bottom>92</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1DRE134" type="equipment">
+      <shape>
+        <left>166</left>
+        <top>97</top>
+        <right>185</right>
+        <bottom>112</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1DRE121" type="equipment">
+      <shape>
+        <left>241</left>
+        <top>127</top>
+        <right>300</right>
+        <bottom>143</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1DRE122" type="equipment">
+      <shape>
+        <left>282</left>
+        <top>98</top>
+        <right>301</right>
+        <bottom>112</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1DRE123" type="equipment">
+      <shape>
+        <left>263</left>
+        <top>73</top>
+        <right>276</right>
+        <bottom>92</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1DRE124" type="equipment">
+      <shape>
+        <left>238</left>
+        <top>98</top>
+        <right>258</right>
+        <bottom>112</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1DRE111" type="equipment">
+      <shape>
+        <left>314</left>
+        <top>128</top>
+        <right>373</right>
+        <bottom>143</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1DRE112" type="equipment">
+      <shape>
+        <left>355</left>
+        <top>98</top>
+        <right>374</right>
+        <bottom>112</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1DRE113" type="equipment">
+      <shape>
+        <left>336</left>
+        <top>73</top>
+        <right>349</right>
+        <bottom>92</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1DRE114" type="equipment">
+      <shape>
+        <left>310</left>
+        <top>98</top>
+        <right>330</right>
+        <bottom>112</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1ETS111" type="equipment">
+      <shape>
+        <left>203</left>
+        <top>197</top>
+        <right>227</right>
+        <bottom>209</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1ETS112" type="equipment">
+      <shape>
+        <left>206</left>
+        <top>240</top>
+        <right>224</right>
+        <bottom>288</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1ETS115" type="equipment">
+      <shape>
+        <left>203</left>
+        <top>407</top>
+        <right>227</right>
+        <bottom>420</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1ETS121" type="equipment">
+      <shape>
+        <left>144</left>
+        <top>197</top>
+        <right>168</right>
+        <bottom>209</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1ETS122" type="equipment">
+      <shape>
+        <left>146</left>
+        <top>240</top>
+        <right>165</right>
+        <bottom>288</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1ETS123" type="equipment">
+      <shape>
+        <left>143</left>
+        <top>287</top>
+        <right>168</right>
+        <bottom>319</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1ETS124" type="equipment">
+      <shape>
+        <left>144</left>
+        <top>319</top>
+        <right>167</right>
+        <bottom>363</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1ETS125" type="equipment">
+      <shape>
+        <left>144</left>
+        <top>407</top>
+        <right>168</right>
+        <bottom>420</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1ETS131" type="equipment">
+      <shape>
+        <left>85</left>
+        <top>197</top>
+        <right>108</right>
+        <bottom>209</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1ETS132" type="equipment">
+      <shape>
+        <left>87</left>
+        <top>240</top>
+        <right>105</right>
+        <bottom>288</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1ETS133" type="equipment">
+      <shape>
+        <left>84</left>
+        <top>287</top>
+        <right>109</right>
+        <bottom>319</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1ETS134" type="equipment">
+      <shape>
+        <left>85</left>
+        <top>318</top>
+        <right>107</right>
+        <bottom>362</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1ETS135" type="equipment">
+      <shape>
+        <left>84</left>
+        <top>407</top>
+        <right>109</right>
+        <bottom>421</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1LWM110" type="equipment">
+      <shape>
+        <left>408</left>
+        <top>295</top>
+        <right>452</right>
+        <bottom>329</bottom>
+      </shape>
+      <ports>
+        <port id="01" image="PORT">
+          <shape>
+            <left>408</left>
+            <top>301</top>
+            <right>419</right>
+            <bottom>312</bottom>
+          </shape>
+        </port>
+        <port id="02" image="PORT">
+          <shape>
+            <left>408</left>
+            <top>311</top>
+            <right>419</right>
+            <bottom>322</bottom>
+          </shape>
+        </port>
+      </ports>
+    </equipment>
+    <equipment id="A1LWM120" type="equipment">
+      <shape>
+        <left>409</left>
+        <top>343</top>
+        <right>453</right>
+        <bottom>378</bottom>
+      </shape>
+      <ports>
+        <port id="01" image="PORT">
+          <shape>
+            <left>409</left>
+            <top>349</top>
+            <right>420</right>
+            <bottom>360</bottom>
+          </shape>
+        </port>
+        <port id="02" image="PORT">
+          <shape>
+            <left>409</left>
+            <top>359</top>
+            <right>420</right>
+            <bottom>370</bottom>
+          </shape>
+        </port>
+      </ports>
+    </equipment>
+    <equipment id="A1MCR110" type="equipment">
+      <shape>
+        <left>409</left>
+        <top>439</top>
+        <right>452</right>
+        <bottom>473</bottom>
+      </shape>
+      <ports>
+        <port id="01" image="PORT">
+          <shape>
+            <left>409</left>
+            <top>445</top>
+            <right>420</right>
+            <bottom>456</bottom>
+          </shape>
+        </port>
+        <port id="02" image="PORT">
+          <shape>
+            <left>409</left>
+            <top>455</top>
+            <right>420</right>
+            <bottom>466</bottom>
+          </shape>
+        </port>
+      </ports>
+    </equipment>
+    <equipment id="A1MCR120" type="equipment">
+      <shape>
+        <left>409</left>
+        <top>391</top>
+        <right>453</right>
+        <bottom>425</bottom>
+      </shape>
+      <ports>
+        <port id="01" image="PORT">
+          <shape>
+            <left>409</left>
+            <top>397</top>
+            <right>420</right>
+            <bottom>408</bottom>
+          </shape>
+        </port>
+        <port id="02" image="PORT">
+          <shape>
+            <left>409</left>
+            <top>407</top>
+            <right>420</right>
+            <bottom>418</bottom>
+          </shape>
+        </port>
+      </ports>
+    </equipment>
+    <equipment id="A1MCR130" type="equipment">
+      <shape>
+        <left>101</left>
+        <top>526</top>
+        <right>145</right>
+        <bottom>559</bottom>
+      </shape>
+      <ports>
+        <port id="01" image="PORT">
+          <shape>
+            <left>102</left>
+            <top>532</top>
+            <right>113</right>
+            <bottom>543</bottom>
+          </shape>
+        </port>
+        <port id="02" image="PORT">
+          <shape>
+            <left>102</left>
+            <top>542</top>
+            <right>113</right>
+            <bottom>553</bottom>
+          </shape>
+        </port>
+      </ports>
+    </equipment>
+    <equipment id="A1PTN110" type="equipment">
+      <shape>
+        <left>409</left>
+        <top>486</top>
+        <right>454</right>
+        <bottom>520</bottom>
+      </shape>
+      <ports>
+        <port id="01" image="PORT">
+          <shape>
+            <left>409</left>
+            <top>493</top>
+            <right>420</right>
+            <bottom>504</bottom>
+          </shape>
+        </port>
+        <port id="02" image="PORT">
+          <shape>
+            <left>409</left>
+            <top>503</top>
+            <right>420</right>
+            <bottom>514</bottom>
+          </shape>
+        </port>
+      </ports>
+    </equipment>
+    <equipment id="A1PTN120" type="equipment">
+      <shape>
+        <left>101</left>
+        <top>478</top>
+        <right>145</right>
+        <bottom>513</bottom>
+      </shape>
+      <ports>
+        <port id="01" image="PORT">
+          <shape>
+            <left>102</left>
+            <top>484</top>
+            <right>113</right>
+            <bottom>495</bottom>
+          </shape>
+        </port>
+        <port id="02" image="PORT">
+          <shape>
+            <left>102</left>
+            <top>494</top>
+            <right>113</right>
+            <bottom>505</bottom>
+          </shape>
+        </port>
+      </ports>
+    </equipment>
+    <equipment id="A1SHP110" type="equipment">
+      <shape>
+        <left>165</left>
+        <top>477</top>
+        <right>209</right>
+        <bottom>512</bottom>
+      </shape>
+      <ports>
+        <port id="01" image="PORT">
+          <shape>
+            <left>197</left>
+            <top>495</top>
+            <right>208</right>
+            <bottom>506</bottom>
+          </shape>
+        </port>
+        <port id="02" image="PORT">
+          <shape>
+            <left>197</left>
+            <top>485</top>
+            <right>208</right>
+            <bottom>496</bottom>
+          </shape>
+        </port>
+      </ports>
+    </equipment>
+    <equipment id="A1SPT110" type="equipment">
+      <shape>
+        <left>827</left>
+        <top>115</top>
+        <right>855</right>
+        <bottom>159</bottom>
+      </shape>
+      <ports>
+        <port id="01" image="PORT">
+          <shape>
+            <left>822</left>
+            <top>177</top>
+            <right>833</right>
+            <bottom>188</bottom>
+          </shape>
+        </port>
+        <port id="02" image="PORT">
+          <shape>
+            <left>832</left>
+            <top>177</top>
+            <right>843</right>
+            <bottom>188</bottom>
+          </shape>
+        </port>
+        <port id="03" image="PORT">
+          <shape>
+            <left>842</left>
+            <top>177</top>
+            <right>853</right>
+            <bottom>188</bottom>
+          </shape>
+        </port>
+        <port id="04" image="PORT">
+          <shape>
+            <left>852</left>
+            <top>177</top>
+            <right>863</right>
+            <bottom>188</bottom>
+          </shape>
+        </port>
+      </ports>
+    </equipment>
+    <equipment id="A1SPT111" type="equipment">
+      <shape>
+        <left>810</left>
+        <top>173</top>
+        <right>875</right>
+        <bottom>190</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1SPT112" type="equipment">
+      <shape>
+        <left>841</left>
+        <top>158</top>
+        <right>859</right>
+        <bottom>173</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1SPT113" type="equipment">
+      <shape>
+        <left>854</left>
+        <top>136</top>
+        <right>876</right>
+        <bottom>151</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1SPT114" type="equipment">
+      <shape>
+        <left>854</left>
+        <top>120</top>
+        <right>875</right>
+        <bottom>135</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1SPT115" type="equipment">
+      <shape>
+        <left>833</left>
+        <top>95</top>
+        <right>848</right>
+        <bottom>116</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1SPT116" type="equipment">
+      <shape>
+        <left>807</left>
+        <top>120</top>
+        <right>828</right>
+        <bottom>135</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1SPT118" type="equipment">
+      <shape>
+        <left>823</left>
+        <top>158</top>
+        <right>841</right>
+        <bottom>173</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1SPT131" type="equipment">
+      <shape>
+        <left>943</left>
+        <top>173</top>
+        <right>1008</right>
+        <bottom>190</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1SPT133" type="equipment">
+      <shape>
+        <left>987</left>
+        <top>135</top>
+        <right>1009</right>
+        <bottom>151</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1SPT134" type="equipment">
+      <shape>
+        <left>987</left>
+        <top>121</top>
+        <right>1008</right>
+        <bottom>136</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1SPT135" type="equipment">
+      <shape>
+        <left>966</left>
+        <top>95</top>
+        <right>981</right>
+        <bottom>116</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1SPT136" type="equipment">
+      <shape>
+        <left>939</left>
+        <top>120</top>
+        <right>960</right>
+        <bottom>135</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1SPT141" type="equipment">
+      <shape>
+        <left>1023</left>
+        <top>173</top>
+        <right>1088</right>
+        <bottom>190</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1SPT142" type="equipment">
+      <shape>
+        <left>1054</left>
+        <top>158</top>
+        <right>1071</right>
+        <bottom>174</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1SPT143" type="equipment">
+      <shape>
+        <left>1067</left>
+        <top>137</top>
+        <right>1088</right>
+        <bottom>152</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1SPT144" type="equipment">
+      <shape>
+        <left>1067</left>
+        <top>121</top>
+        <right>1088</right>
+        <bottom>136</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1SPT145" type="equipment">
+      <shape>
+        <left>1046</left>
+        <top>94</top>
+        <right>1062</right>
+        <bottom>116</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1SPT146" type="equipment">
+      <shape>
+        <left>1019</left>
+        <top>120</top>
+        <right>1041</right>
+        <bottom>136</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1SPT148" type="equipment">
+      <shape>
+        <left>1036</left>
+        <top>158</top>
+        <right>1054</right>
+        <bottom>174</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1SPT150" type="equipment">
+      <shape>
+        <left>1120</left>
+        <top>115</top>
+        <right>1149</right>
+        <bottom>159</bottom>
+      </shape>
+      <ports>
+        <port id="01" image="PORT">
+          <shape>
+            <left>1116</left>
+            <top>177</top>
+            <right>1127</right>
+            <bottom>188</bottom>
+          </shape>
+        </port>
+        <port id="02" image="PORT">
+          <shape>
+            <left>1126</left>
+            <top>177</top>
+            <right>1137</right>
+            <bottom>188</bottom>
+          </shape>
+        </port>
+        <port id="03" image="PORT">
+          <shape>
+            <left>1136</left>
+            <top>177</top>
+            <right>1147</right>
+            <bottom>188</bottom>
+          </shape>
+        </port>
+        <port id="04" image="PORT">
+          <shape>
+            <left>1146</left>
+            <top>177</top>
+            <right>1157</right>
+            <bottom>188</bottom>
+          </shape>
+        </port>
+      </ports>
+    </equipment>
+    <equipment id="A1SPT151" type="equipment">
+      <shape>
+        <left>1104</left>
+        <top>173</top>
+        <right>1170</right>
+        <bottom>190</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1SPT152" type="equipment">
+      <shape>
+        <left>1134</left>
+        <top>158</top>
+        <right>1152</right>
+        <bottom>174</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1SPT153" type="equipment">
+      <shape>
+        <left>1148</left>
+        <top>137</top>
+        <right>1169</right>
+        <bottom>152</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1SPT154" type="equipment">
+      <shape>
+        <left>1148</left>
+        <top>120</top>
+        <right>1169</right>
+        <bottom>136</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1SPT155" type="equipment">
+      <shape>
+        <left>1127</left>
+        <top>95</top>
+        <right>1142</right>
+        <bottom>116</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1SPT156" type="equipment">
+      <shape>
+        <left>1100</left>
+        <top>121</top>
+        <right>1121</right>
+        <bottom>136</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1SPT158" type="equipment">
+      <shape>
+        <left>1117</left>
+        <top>158</top>
+        <right>1134</right>
+        <bottom>174</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1STK110" type="stocker">
+      <shape>
+        <left>314</left>
+        <top>421</top>
+        <right>344</right>
+        <bottom>638</bottom>
+      </shape>
+      <ports>
+        <port id="01" image="PORT">
+          <shape>
+            <left>343</left>
+            <top>580</top>
+            <right>354</right>
+            <bottom>591</bottom>
+          </shape>
+        </port>
+        <port id="02" image="PORT">
+          <shape>
+            <left>343</left>
+            <top>450</top>
+            <right>354</right>
+            <bottom>461</bottom>
+          </shape>
+        </port>
+        <port id="03" image="PORT">
+          <shape>
+            <left>317</left>
+            <top>410</top>
+            <right>328</right>
+            <bottom>421</bottom>
+          </shape>
+        </port>
+        <port id="04" image="PORT">
+          <shape>
+            <left>304</left>
+            <top>525</top>
+            <right>315</right>
+            <bottom>536</bottom>
+          </shape>
+        </port>
+      </ports>
+    </equipment>
+    <equipment id="A1STP111" type="equipment">
+      <shape>
+        <left>319</left>
+        <top>197</top>
+        <right>342</right>
+        <bottom>210</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1STP113" type="equipment">
+      <shape>
+        <left>319</left>
+        <top>314</top>
+        <right>342</right>
+        <bottom>326</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1STP121" type="equipment">
+      <shape>
+        <left>262</left>
+        <top>197</top>
+        <right>284</right>
+        <bottom>211</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1STP123" type="equipment">
+      <shape>
+        <left>262</left>
+        <top>314</top>
+        <right>284</right>
+        <bottom>326</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1TEG110" type="equipment">
+      <shape>
+        <left>102</left>
+        <top>574</top>
+        <right>146</right>
+        <bottom>608</bottom>
+      </shape>
+      <ports>
+        <port id="01" image="PORT">
+          <shape>
+            <left>102</left>
+            <top>580</top>
+            <right>113</right>
+            <bottom>591</bottom>
+          </shape>
+        </port>
+        <port id="02" image="PORT">
+          <shape>
+            <left>102</left>
+            <top>590</top>
+            <right>113</right>
+            <bottom>601</bottom>
+          </shape>
+        </port>
+      </ports>
+    </equipment>
+    <equipment id="A1ETS120" type="equipment">
+      <shape>
+        <left>141</left>
+        <top>209</top>
+        <right>171</right>
+        <bottom>408</bottom>
+      </shape>
+      <ports>
+        <port id="01" image="PORT">
+          <shape>
+            <left>151</left>
+            <top>198</top>
+            <right>162</right>
+            <bottom>209</bottom>
+          </shape>
+        </port>
+        <port id="02" image="PORT">
+          <shape>
+            <left>156</left>
+            <top>292</top>
+            <right>167</right>
+            <bottom>303</bottom>
+          </shape>
+        </port>
+        <port id="03" image="PORT">
+          <shape>
+            <left>156</left>
+            <top>302</top>
+            <right>167</right>
+            <bottom>313</bottom>
+          </shape>
+        </port>
+        <port id="04" image="PORT">
+          <shape>
+            <left>151</left>
+            <top>408</top>
+            <right>162</right>
+            <bottom>419</bottom>
+          </shape>
+        </port>
+      </ports>
+    </equipment>
+    <equipment id="A1ETS130" type="equipment">
+      <shape>
+        <left>82</left>
+        <top>209</top>
+        <right>112</right>
+        <bottom>408</bottom>
+      </shape>
+      <ports>
+        <port id="01" image="PORT">
+          <shape>
+            <left>91</left>
+            <top>198</top>
+            <right>102</right>
+            <bottom>209</bottom>
+          </shape>
+        </port>
+        <port id="02" image="PORT">
+          <shape>
+            <left>98</left>
+            <top>292</top>
+            <right>109</right>
+            <bottom>303</bottom>
+          </shape>
+        </port>
+        <port id="03" image="PORT">
+          <shape>
+            <left>98</left>
+            <top>302</top>
+            <right>109</right>
+            <bottom>313</bottom>
+          </shape>
+        </port>
+        <port id="04" image="PORT">
+          <shape>
+            <left>91</left>
+            <top>408</top>
+            <right>102</right>
+            <bottom>419</bottom>
+          </shape>
+        </port>
+      </ports>
+    </equipment>
+    <equipment id="A1DRE120" type="equipment">
+      <shape>
+        <left>257</left>
+        <top>92</top>
+        <right>283</right>
+        <bottom>122</bottom>
+      </shape>
+      <ports>
+        <port id="01" image="PORT">
+          <shape>
+            <left>250</left>
+            <top>130</top>
+            <right>261</right>
+            <bottom>141</bottom>
+          </shape>
+        </port>
+        <port id="02" image="PORT">
+          <shape>
+            <left>260</left>
+            <top>130</top>
+            <right>271</right>
+            <bottom>141</bottom>
+          </shape>
+        </port>
+        <port id="03" image="PORT">
+          <shape>
+            <left>270</left>
+            <top>130</top>
+            <right>281</right>
+            <bottom>141</bottom>
+          </shape>
+        </port>
+        <port id="04" image="PORT">
+          <shape>
+            <left>280</left>
+            <top>130</top>
+            <right>291</right>
+            <bottom>141</bottom>
+          </shape>
+        </port>
+      </ports>
+    </equipment>
+    <equipment id="A1CDM111" type="equipment">
+      <shape>
+        <left>546</left>
+        <top>245</top>
+        <right>603</right>
+        <bottom>260</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1UNP011" type="equipment">
+      <shape>
+        <left>1213</left>
+        <top>61</top>
+        <right>1242</right>
+        <bottom>75</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1UNP013" type="equipment">
+      <shape>
+        <left>1213</left>
+        <top>181</top>
+        <right>1241</right>
+        <bottom>196</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1DRE140" type="equipment">
+      <shape>
+        <left>111</left>
+        <top>92</top>
+        <right>137</right>
+        <bottom>121</bottom>
+      </shape>
+      <ports>
+        <port id="01" image="PORT">
+          <shape>
+            <left>104</left>
+            <top>130</top>
+            <right>115</right>
+            <bottom>141</bottom>
+          </shape>
+        </port>
+        <port id="02" image="PORT">
+          <shape>
+            <left>114</left>
+            <top>130</top>
+            <right>125</right>
+            <bottom>141</bottom>
+          </shape>
+        </port>
+        <port id="03" image="PORT">
+          <shape>
+            <left>124</left>
+            <top>130</top>
+            <right>135</right>
+            <bottom>141</bottom>
+          </shape>
+        </port>
+        <port id="04" image="PORT">
+          <shape>
+            <left>134</left>
+            <top>130</top>
+            <right>145</right>
+            <bottom>141</bottom>
+          </shape>
+        </port>
+      </ports>
+    </equipment>
+    <equipment id="A1ETS114" type="equipment">
+      <shape>
+        <left>204</left>
+        <top>319</top>
+        <right>226</right>
+        <bottom>362</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1ETS113" type="equipment">
+      <shape>
+        <left>203</left>
+        <top>287</top>
+        <right>228</right>
+        <bottom>319</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1ETS110" type="equipment">
+      <shape>
+        <left>200</left>
+        <top>209</top>
+        <right>232</right>
+        <bottom>408</bottom>
+      </shape>
+      <ports>
+        <port id="01" image="PORT">
+          <shape>
+            <left>210</left>
+            <top>198</top>
+            <right>221</right>
+            <bottom>209</bottom>
+          </shape>
+        </port>
+        <port id="02" image="PORT">
+          <shape>
+            <left>217</left>
+            <top>292</top>
+            <right>228</right>
+            <bottom>303</bottom>
+          </shape>
+        </port>
+        <port id="03" image="PORT">
+          <shape>
+            <left>217</left>
+            <top>302</top>
+            <right>228</right>
+            <bottom>313</bottom>
+          </shape>
+        </port>
+        <port id="04" image="PORT">
+          <shape>
+            <left>210</left>
+            <top>408</top>
+            <right>221</right>
+            <bottom>419</bottom>
+          </shape>
+        </port>
+      </ports>
+    </equipment>
+    <equipment id="A1PTC110" type="equipment">
+      <shape>
+        <left>408</left>
+        <top>247</top>
+        <right>453</right>
+        <bottom>281</bottom>
+      </shape>
+      <ports>
+        <port id="01" image="PORT">
+          <shape>
+            <left>408</left>
+            <top>254</top>
+            <right>419</right>
+            <bottom>265</bottom>
+          </shape>
+        </port>
+        <port id="02" image="PORT">
+          <shape>
+            <left>408</left>
+            <top>264</top>
+            <right>419</right>
+            <bottom>275</bottom>
+          </shape>
+        </port>
+      </ports>
+    </equipment>
+    <equipment id="A1CDM112" type="equipment">
+      <shape>
+        <left>551</left>
+        <top>259</top>
+        <right>575</right>
+        <bottom>310</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CDM113" type="equipment">
+      <shape>
+        <left>551</left>
+        <top>309</top>
+        <right>575</right>
+        <bottom>328</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CDM11C" type="equipment">
+      <shape>
+        <left>588</left>
+        <top>311</top>
+        <right>608</right>
+        <bottom>333</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CDM144" type="equipment">
+      <shape>
+        <left>999</left>
+        <top>333</top>
+        <right>1022</right>
+        <bottom>365</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CDM154" type="equipment">
+      <shape>
+        <left>1153</left>
+        <top>333</top>
+        <right>1176</right>
+        <bottom>366</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CDM134" type="equipment">
+      <shape>
+        <left>845</left>
+        <top>333</top>
+        <right>868</right>
+        <bottom>365</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1SPT130" type="equipment">
+      <shape>
+        <left>959</left>
+        <top>115</top>
+        <right>989</right>
+        <bottom>159</bottom>
+      </shape>
+      <ports>
+        <port id="01" image="PORT">
+          <shape>
+            <left>955</left>
+            <top>177</top>
+            <right>966</right>
+            <bottom>188</bottom>
+          </shape>
+        </port>
+        <port id="02" image="PORT">
+          <shape>
+            <left>965</left>
+            <top>177</top>
+            <right>976</right>
+            <bottom>188</bottom>
+          </shape>
+        </port>
+        <port id="03" image="PORT">
+          <shape>
+            <left>975</left>
+            <top>177</top>
+            <right>986</right>
+            <bottom>188</bottom>
+          </shape>
+        </port>
+        <port id="04" image="PORT">
+          <shape>
+            <left>985</left>
+            <top>177</top>
+            <right>996</right>
+            <bottom>188</bottom>
+          </shape>
+        </port>
+      </ports>
+    </equipment>
+    <equipment id="A1SPT132" type="equipment">
+      <shape>
+        <left>973</left>
+        <top>158</top>
+        <right>991</right>
+        <bottom>174</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1SPT138" type="equipment">
+      <shape>
+        <left>956</left>
+        <top>158</top>
+        <right>974</right>
+        <bottom>174</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1SPT140" type="equipment">
+      <shape>
+        <left>1040</left>
+        <top>115</top>
+        <right>1068</right>
+        <bottom>159</bottom>
+      </shape>
+      <ports>
+        <port id="01" image="PORT">
+          <shape>
+            <left>1035</left>
+            <top>177</top>
+            <right>1046</right>
+            <bottom>188</bottom>
+          </shape>
+        </port>
+        <port id="02" image="PORT">
+          <shape>
+            <left>1045</left>
+            <top>177</top>
+            <right>1056</right>
+            <bottom>188</bottom>
+          </shape>
+        </port>
+        <port id="03" image="PORT">
+          <shape>
+            <left>1055</left>
+            <top>177</top>
+            <right>1066</right>
+            <bottom>188</bottom>
+          </shape>
+        </port>
+        <port id="04" image="PORT">
+          <shape>
+            <left>1065</left>
+            <top>177</top>
+            <right>1076</right>
+            <bottom>188</bottom>
+          </shape>
+        </port>
+      </ports>
+    </equipment>
+    <equipment id="A1CDM153" type="equipment">
+      <shape>
+        <left>1167</left>
+        <top>309</top>
+        <right>1191</right>
+        <bottom>328</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1CDM140" type="equipment">
+      <shape>
+        <left>1013</left>
+        <top>259</top>
+        <right>1060</right>
+        <bottom>409</bottom>
+      </shape>
+      <ports>
+        <port id="01" image="PORT">
+          <shape>
+            <left>1051</left>
+            <top>247</top>
+            <right>1062</right>
+            <bottom>258</bottom>
+          </shape>
+        </port>
+        <port id="02" image="PORT">
+          <shape>
+            <left>1041</left>
+            <top>247</top>
+            <right>1052</right>
+            <bottom>258</bottom>
+          </shape>
+        </port>
+        <port id="03" image="PORT">
+          <shape>
+            <left>1031</left>
+            <top>247</top>
+            <right>1042</right>
+            <bottom>258</bottom>
+          </shape>
+        </port>
+        <port id="04" image="PORT">
+          <shape>
+            <left>1021</left>
+            <top>247</top>
+            <right>1032</right>
+            <bottom>258</bottom>
+          </shape>
+        </port>
+        <port id="05" image="PORT">
+          <shape>
+            <left>1011</left>
+            <top>247</top>
+            <right>1022</right>
+            <bottom>258</bottom>
+          </shape>
+        </port>
+      </ports>
+    </equipment>
+    <equipment id="A1CDM150" type="equipment">
+      <shape>
+        <left>1167</left>
+        <top>260</top>
+        <right>1214</right>
+        <bottom>410</bottom>
+      </shape>
+      <ports>
+        <port id="01" image="PORT">
+          <shape>
+            <left>1205</left>
+            <top>247</top>
+            <right>1216</right>
+            <bottom>258</bottom>
+          </shape>
+        </port>
+        <port id="02" image="PORT">
+          <shape>
+            <left>1195</left>
+            <top>247</top>
+            <right>1206</right>
+            <bottom>258</bottom>
+          </shape>
+        </port>
+        <port id="03" image="PORT">
+          <shape>
+            <left>1185</left>
+            <top>247</top>
+            <right>1196</right>
+            <bottom>258</bottom>
+          </shape>
+        </port>
+        <port id="04" image="PORT">
+          <shape>
+            <left>1175</left>
+            <top>247</top>
+            <right>1186</right>
+            <bottom>258</bottom>
+          </shape>
+        </port>
+        <port id="05" image="PORT">
+          <shape>
+            <left>1165</left>
+            <top>247</top>
+            <right>1176</right>
+            <bottom>258</bottom>
+          </shape>
+        </port>
+      </ports>
+    </equipment>
+    <equipment id="A1CDM120" type="equipment">
+      <shape>
+        <left>705</left>
+        <top>259</top>
+        <right>753</right>
+        <bottom>409</bottom>
+      </shape>
+      <ports>
+        <port id="01" image="PORT">
+          <shape>
+            <left>743</left>
+            <top>247</top>
+            <right>754</right>
+            <bottom>258</bottom>
+          </shape>
+        </port>
+        <port id="02" image="PORT">
+          <shape>
+            <left>733</left>
+            <top>247</top>
+            <right>744</right>
+            <bottom>258</bottom>
+          </shape>
+        </port>
+        <port id="03" image="PORT">
+          <shape>
+            <left>723</left>
+            <top>247</top>
+            <right>734</right>
+            <bottom>258</bottom>
+          </shape>
+        </port>
+        <port id="04" image="PORT">
+          <shape>
+            <left>713</left>
+            <top>247</top>
+            <right>724</right>
+            <bottom>258</bottom>
+          </shape>
+        </port>
+        <port id="05" image="PORT">
+          <shape>
+            <left>703</left>
+            <top>247</top>
+            <right>714</right>
+            <bottom>258</bottom>
+          </shape>
+        </port>
+      </ports>
+    </equipment>
+    <equipment id="A1CDM110" type="equipment">
+      <shape>
+        <left>551</left>
+        <top>259</top>
+        <right>599</right>
+        <bottom>409</bottom>
+      </shape>
+      <ports>
+        <port id="01" image="PORT">
+          <shape>
+            <left>589</left>
+            <top>247</top>
+            <right>600</right>
+            <bottom>258</bottom>
+          </shape>
+        </port>
+        <port id="02" image="PORT">
+          <shape>
+            <left>579</left>
+            <top>247</top>
+            <right>590</right>
+            <bottom>258</bottom>
+          </shape>
+        </port>
+        <port id="03" image="PORT">
+          <shape>
+            <left>569</left>
+            <top>247</top>
+            <right>580</right>
+            <bottom>258</bottom>
+          </shape>
+        </port>
+        <port id="04" image="PORT">
+          <shape>
+            <left>559</left>
+            <top>247</top>
+            <right>570</right>
+            <bottom>258</bottom>
+          </shape>
+        </port>
+        <port id="05" image="PORT">
+          <shape>
+            <left>549</left>
+            <top>247</top>
+            <right>560</right>
+            <bottom>258</bottom>
+          </shape>
+        </port>
+      </ports>
+    </equipment>
+    <equipment id="A1CDM130" type="equipment">
+      <shape>
+        <left>859</left>
+        <top>259</top>
+        <right>907</right>
+        <bottom>409</bottom>
+      </shape>
+      <ports>
+        <port id="01" image="PORT">
+          <shape>
+            <left>897</left>
+            <top>247</top>
+            <right>908</right>
+            <bottom>258</bottom>
+          </shape>
+        </port>
+        <port id="02" image="PORT">
+          <shape>
+            <left>887</left>
+            <top>247</top>
+            <right>898</right>
+            <bottom>258</bottom>
+          </shape>
+        </port>
+        <port id="03" image="PORT">
+          <shape>
+            <left>877</left>
+            <top>247</top>
+            <right>888</right>
+            <bottom>258</bottom>
+          </shape>
+        </port>
+        <port id="04" image="PORT">
+          <shape>
+            <left>867</left>
+            <top>247</top>
+            <right>878</right>
+            <bottom>258</bottom>
+          </shape>
+        </port>
+        <port id="05" image="PORT">
+          <shape>
+            <left>857</left>
+            <top>247</top>
+            <right>868</right>
+            <bottom>258</bottom>
+          </shape>
+        </port>
+      </ports>
+    </equipment>
+    <equipment id="A1DRE142" type="equipment">
+      <shape>
+        <left>136</left>
+        <top>98</top>
+        <right>156</right>
+        <bottom>112</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1STP122" type="equipment">
+      <shape>
+        <left>260</left>
+        <top>237</top>
+        <right>287</right>
+        <bottom>283</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1DRE144" type="equipment">
+      <shape>
+        <left>93</left>
+        <top>98</top>
+        <right>112</right>
+        <bottom>112</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1STP112" type="equipment">
+      <shape>
+        <left>317</left>
+        <top>237</top>
+        <right>344</right>
+        <bottom>283</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1UNP012" type="equipment">
+      <shape>
+        <left>1218</left>
+        <top>102</top>
+        <right>1236</right>
+        <bottom>156</bottom>
+      </shape>
+    </equipment>
+    <equipment id="A1STP120" type="equipment">
+      <shape>
+        <left>259</left>
+        <top>209</top>
+        <right>288</right>
+        <bottom>315</bottom>
+      </shape>
+      <ports>
+        <port id="01" image="PORT">
+          <shape>
+            <left>268</left>
+            <top>198</top>
+            <right>279</right>
+            <bottom>209</bottom>
+          </shape>
+        </port>
+        <port id="02" image="PORT">
+          <shape>
+            <left>268</left>
+            <top>314</top>
+            <right>279</right>
+            <bottom>325</bottom>
+          </shape>
+        </port>
+      </ports>
+    </equipment>
+    <equipment id="A1UNP010" type="equipment">
+      <shape>
+        <left>1217</left>
+        <top>75</top>
+        <right>1238</right>
+        <bottom>181</bottom>
+      </shape>
+      <ports>
+        <port id="01" image="PORT">
+          <shape>
+            <left>1222</left>
+            <top>63</top>
+            <right>1233</right>
+            <bottom>74</bottom>
+          </shape>
+        </port>
+        <port id="02" image="PORT">
+          <shape>
+            <left>1222</left>
+            <top>183</top>
+            <right>1233</right>
+            <bottom>194</bottom>
+          </shape>
+        </port>
+      </ports>
+    </equipment>
+    <equipment id="A1STP110" type="equipment">
+      <shape>
+        <left>316</left>
+        <top>209</top>
+        <right>345</right>
+        <bottom>315</bottom>
+      </shape>
+      <ports>
+        <port id="01" image="PORT">
+          <shape>
+            <left>325</left>
+            <top>198</top>
+            <right>336</right>
+            <bottom>209</bottom>
+          </shape>
+        </port>
+        <port id="02" image="PORT">
+          <shape>
+            <left>325</left>
+            <top>314</top>
+            <right>336</right>
+            <bottom>325</bottom>
+          </shape>
+        </port>
+      </ports>
+    </equipment>
+  </area>
+  <links>
+    <link id="Alarm List" type="equipment" url="/ppt_eqptAlrtList.do">
+      <parameter name="eqpt_id" refer="EQPT_ID" value="" />
+    </link>
+    <link id="Cassette Information" type="carrier" url="/ppt_crrInfo.do">
+      <parameter name="crr_id" refer="EQPT_ID" value="" />
+    </link>
+    <link id="Equipment Information" type="equipment" url="/ppt_eqptInfo.do">
+      <parameter name="eqpt_id" refer="EQPT_ID" value="" />
+    </link>
+    <link id="In-Process List" type="equipment" url="/ppt_inprList.do">
+      <parameter name="eqpt_id" refer="EQPT_ID" value="" />
+    </link>
+    <link id="Unit Status Change History" type="unit" url="/ppt_unitStatHis.do">
+      <parameter name="eqpt_id" refer="EQPT_ID" value="" />
+    </link>
+    <link id="WIP List" type="equipment" url="/ppt_wipList.do">
+      <parameter name="eqpt_id" refer="EQPT_ID" value="" />
+    </link>
+  </links>
+  <images>
+    <image id="PORT" path="Port2.gif" base="FFFFFF" border="FF0000" />
+    <image id="TFT_LEFT" path="TFT_LEFT.gif" base="FFFFFF" border="FF0000" />
+  </images>
+  <colors>
+    <color type="mode" main="CONT" sub="" rgb="0080FF" />
+    <color type="mode" main="MANU" sub="" rgb="FFFF00" />
+    <color type="portStatus" main="DOWN" sub="" rgb="C80D37" />
+    <color type="portStatus" main="FREE" sub="" rgb="0080FF" />
+    <color type="portStatus" main="LDCM" sub="" rgb="00FFFF" />
+    <color type="portStatus" main="LDRQ" sub="" rgb="FF80FF" />
+    <color type="portStatus" main="UDCM" sub="" rgb="FFFF80" />
+    <color type="portStatus" main="UDRQ" sub="" rgb="00FF80" />
+    <color type="status" main="DOWN" sub="" rgb="FF0000" />
+    <color type="status" main="IDLE" sub="" rgb="7FFFFF" />
+    <color type="status" main="RUN" sub="" rgb="00FF00" />
+    <color type="status" main="ENG" sub="" rgb="79B9C4" />
+  </colors>
+</layout>

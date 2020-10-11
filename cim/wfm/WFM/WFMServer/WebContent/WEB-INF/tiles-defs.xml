@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration//EN" 
+       "http://jakarta.apache.org/struts/dtds/tiles-config.dtd">
+
+<tiles-definitions>
+	<definition name="lcdLayout" path="/commons/layout/classicLayout.jsp">
+		<put name="body" value="doc.portal.body"/>
+	</definition>
+	<definition name="pptLayout" path="/commons/layout/classicLayout.jsp">
+		<put name="body" value="doc.portal.body"/>
+		<put name="sortscript" value="doc.portal.body"/>
+	</definition>
+	<definition name="cfmLayout" path="/commons/layout/classicLayout.jsp">
+		<put name="body" value="doc.portal.body"/>
+	</definition>
+</tiles-definitions>

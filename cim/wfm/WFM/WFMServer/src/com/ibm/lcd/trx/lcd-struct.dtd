@@ -1,0 +1,13 @@
+<!ELEMENT struct (struct|field|array)+>
+<!ELEMENT field (#PCDATA)>
+<!ELEMENT array (struct|field|array)>
+<!ATTLIST struct name CDATA #REQUIRED>
+<!ATTLIST struct encoding CDATA #IMPLIED>
+<!ATTLIST struct multiplicity CDATA '1'>
+<!ATTLIST field name CDATA #REQUIRED>
+<!ATTLIST field encoding CDATA #IMPLIED>
+<!ATTLIST field multiplicity CDATA '1'>
+<!ATTLIST field size CDATA '0'>
+<!ATTLIST array name CDATA #REQUIRED>
+<!ATTLIST array encoding CDATA #IMPLIED>
+<!ATTLIST array multiplicity CDATA '1'>
