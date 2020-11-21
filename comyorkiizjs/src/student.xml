@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding="UTF-8" ?>
+<!DOCTYPE students SYSTEM "E:\工作\咕泡学院\git\comyorkiizjs\src\student.dtd">
+
+<students>
+
+    <student>
+        <name>yongjie</name>
+        <age>18</age>
+        <sex>man</sex>
+    </student>
+
+</students>
+

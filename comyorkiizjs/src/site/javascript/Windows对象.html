@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Windows对象</title>
+    <script>
+        /*
+        window：窗口对象
+        1.创建
+        2.方法
+              1.与弹出框有关的方法
+              alert()
+              confirm()
+              prompt()
+              2.与开关有关的方法
+              open()
+              close()
+              3.与定时器相关的方法
+              setTimeout()
+              clearTimeout()
+
+        3.属性
+        4.特点
+         */
+        alert("hello window");
+        window.alert("hello a");
+
+       var flag = confirm("你确定要退出吗");
+       if(flag){
+           alert("退出成功");
+       }
+       var result = prompt("请输入用户名");
+       alert(result);
+
+
+    </script>
+</head>
+<body>
+<input id="openBtn" type="button" value="打开窗口">
+<input id="closeBtn" type="button" value="关闭窗口">
+<script>
+    var openBtn = document.getElementById("openBtn");
+    var newWindow;
+    openBtn.onclick = function (ev) {
+        newWindow = open("https://www.baidu.com");
+    }
+
+    var closeBtn = document.getElementById("closeBtn");
+    closeBtn.onclick = function (ev) {
+
+        newWindow.close();
+    }
+</script>
+
+
+</body>
+</html>
