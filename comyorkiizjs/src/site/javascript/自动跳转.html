@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>自动跳转</title>
+    <style>
+        p{
+            text-align: center;
+        }
+        span{
+            color: #ff0f1e;
+        }
+    </style>
+
+
+
+</head>
+<body>
+<p>
+    <span id ="time">5</span>秒之后自动跳转
+</p>
+
+
+<script>
+    var tm = document.getElementById("time");
+    tm.innerHTML = 5;
+    var timecount = 5;
+    function changetime() {
+        timecount --;
+        if(timecount==0){
+            location.href = "https://www.baidu.com/"
+        }
+        tm.innerHTML = timecount;
+    }
+    setInterval(changetime,1000);
+
+</script>
+</body>
+</html>

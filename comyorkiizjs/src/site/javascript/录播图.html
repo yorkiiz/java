@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>轮播图</title>
+
+ </head>
+<body>
+    <img id="img" src="img/梦想的本质001.PNG" >
+
+    <script>
+        var number = 1;
+        function fun() {
+            number++;
+            if(number==5){
+                number=1;
+            }
+            //document.write(number);
+            var imgt = document.getElementById("img");
+            //path="../../site.javascript.img/梦想的本质00" + number + ".PNG";
+            //document.write(path);
+            imgt.src = "img/梦想的本质00" + number + ".PNG";
+        }
+
+        setInterval(fun,3000);
+    </script>
+
+</body>
+</html>
