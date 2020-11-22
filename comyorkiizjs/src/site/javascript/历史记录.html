@@ -2,9 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>历史记录</title>
 </head>
 <body>
+
+<input type="button" id ="forward" value="前进"><br>
+<input type="button" id="his" value="历史记录"><br>
+<input type="button" id="backward" value="后退"><br>
+
+<script>
+    var hisbtn = document.getElementById("his");
+    var fdbtn = document.getElementById("forward");
+    var bkbtn = document.getElementById("backward");
+    hisbtn.onclick = function (ev) {
+        var lenth = history.length;
+        alert(lenth);
+    }
+
+    fdbtn.onclick = function (ev) {
+        history.forward();
+    }
+
+    bkbtn.onclick = function (ev) {
+        history.back();
+    }
+
+</script>
 
 </body>
 </html>
