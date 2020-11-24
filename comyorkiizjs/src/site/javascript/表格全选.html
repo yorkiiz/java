@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表格全选</title>
+    <style>
+        div{
+            text-align: center;
+            margin:50px;
+        }
+        table{
+            border: 1px solid;
+            margin: auto;
+            width: 500px;
+        }
+        td,th{
+            text-align: center;
+            border: 1px solid;
+        }
+        #div1{
+            margin-top: 10px;
+            margin-left: 1px;
+        }
+        .over{
+            background: pink;
+        }
+        .out{
+            background: white;
+        }
+    </style>
+
+    <script>
+        window.onload = function (ev) {
+            document.getElementById("allcheck").onclick = function (ev1) {
+                var cbs = document.getElementsByName("cb");
+                for (var i in cbs) {
+                    cbs[i].checked=true;
+                }
+            }
+
+            document.getElementById("allnotcheck").onclick = function (ev1) {
+                var cbs = document.getElementsByName("cb");
+                for (var i in cbs) {
+                    cbs[i].checked=false;
+                }
+            }
+
+            document.getElementById("selectnot").onclick = function (ev1) {
+                var cbs = document.getElementsByName("cb");
+                for (var i in cbs) {
+                    this.checked=!cbs[i].checked;
+                }
+            }
+
+            var trs = document.getElementsByTagName("tr");
+            for (var i in trs) {
+                trs[i].onmouseover = function (ev1) {
+                   this.className = "over";
+                }
+            }
+            var trs = document.getElementsByTagName("tr");
+            for (var i in trs) {
+                trs[i].onmouseout = function (ev1) {
+                    this.className = "out";
+                }
+            }
+
+
+        }
+    </script>
+</head>
+<body>
+<div>
+    <input id="id" type="text" placeholder="请输入编号">
+    <input id="name" type="text" placeholder="请输入姓名">
+    <input id="gender" type="text" placeholder="请输入性别">
+    <input type="button" value="添加" id="btn_add">
+
+    <table>
+        <caption>学生信息表</caption>
+        <tr>
+            <th><input type="checkbox" name="cb"></th>
+            <th>编号</th>
+            <th>姓名</th>
+            <th>性别</th>
+            <th>操作</th>
+        </tr>
+
+        <tr>
+            <th><input type="checkbox" name="cb"></th>
+            <td>1</td>
+            <td>令狐冲</td>
+            <td>男</td>
+            <td><a href="javascript:void(0)" onclick="deltr(this)">删除</a></td>
+        </tr>
+
+        <tr>
+            <th><input type="checkbox" name="cb"></th>
+            <td>2</td>
+            <td>任我行</td>
+            <td>男</td>
+            <td><a href="javascript:void(0)" onclick="deltr(this)">删除</a></td>
+        </tr>
+
+        <tr>
+            <th><input type="checkbox" name="cb"></th>
+            <td>3</td>
+            <td>岳不群</td>
+            <td>?</td>
+            <td><a href="javascript:void(0)" onclick="deltr(this)">删除</a></td>
+        </tr>
+
+    </table>
+</div>
+<div id="div1">
+    <input type="button" value="全选" id="allcheck">
+    <input type="button" value="全不选" id="allnotcheck">
+    <input type="button" value="反选" id="selectnot">
+</div>
+
+
+</body>
+</html>
