@@ -1,6 +1,7 @@
-package com.javaweb;
+package servlet;
 
 import javax.servlet.*;
+import javax.servlet.annotation.WebServlet;
 import java.io.IOException;
 
 /**
@@ -9,6 +10,8 @@ import java.io.IOException;
  * @describtion:
  **/
 
+//@WebServlet(urlPatterns = "/demo2")
+    @WebServlet("/demo3")
 public class ServletDemo implements Servlet {
 
 
@@ -26,7 +29,7 @@ public class ServletDemo implements Servlet {
     @Override
     public void service(ServletRequest servletRequest, ServletResponse servletResponse) throws ServletException, IOException {
 
-        System.out.println("Hellow Servlet");
+        System.out.println("Hellow Servlet 3.0");
 
     }
 
