@@ -1,4 +1,4 @@
-package servlet;
+package servlet.request;
 
 import javax.servlet.*;
 import javax.servlet.annotation.WebServlet;

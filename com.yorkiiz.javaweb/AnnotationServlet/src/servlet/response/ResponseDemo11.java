@@ -1,6 +1,4 @@
-package servlet;
-
-import com.sun.net.httpserver.HttpServer;
+package servlet.response;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -15,26 +13,20 @@ import java.io.IOException;
  * @describtion:
  **/
 
-@WebServlet("/demo6")
-public class ServletRefer extends HttpServlet {
+@WebServlet("/demo11")
+public class ResponseDemo11 extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        System.out.println("response demo11");
+        resp.setStatus(302);
+        resp.setHeader("location","/AnnotationServlet_war_exploded/demo12");
 
-        String refer = req.getHeader("Refer");
-        System.out.println(refer);
-        if(refer!=null) {
-            if (refer.contains("AnnotationServlet")) {
-                System.out.println("访问成功");
-            } else {
-                System.out.println("访问失败");
-            }
-        }
+        resp.sendRedirect("/AnnotationServlet_war_exploded/demo12");
 
     }
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
-
+        this.doGet(req,resp);
     }
 }

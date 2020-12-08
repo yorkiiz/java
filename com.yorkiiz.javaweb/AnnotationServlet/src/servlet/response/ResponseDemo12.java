@@ -1,4 +1,4 @@
-package servlet;
+package servlet.response;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -13,18 +13,17 @@ import java.io.IOException;
  * @describtion:
  **/
 
-@WebServlet("/demo4")
-public class HttpServletDemo extends HttpServlet {
-
+@WebServlet("/demo12")
+public class ResponseDemo12 extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        //super.doGet(req, resp);
-        System.out.println("do get");
+        System.out.println("response demo12");
+
+
     }
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        //super.doPost(req, resp);
-        System.out.println("do post");
+        this.doGet(req,resp);
     }
 }
