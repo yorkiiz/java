@@ -14,13 +14,15 @@ import java.io.IOException;
  * @describtion:
  **/
 
-@WebServlet("/cookieDemo1")
-public class CookieDemo1 extends HttpServlet {
+@WebServlet("/cookieDemo3")
+public class CookieDemo3 extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         Cookie c = new Cookie("msg", "hello");
+        //setMaxAge 正数：缓存在硬盘   负数：浏览器关闭立即删除    0：缓存在浏览器
+        c.setMaxAge(30);//缓存30秒
         resp.addCookie(c);
-        resp.getWriter().write("<h1>cookieDemo1</h1>");
+        resp.getWriter().write("<h1>cookieDemo3</h1>");
     }
 
     @Override

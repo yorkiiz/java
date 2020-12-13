@@ -26,6 +26,7 @@ public class CookieDemo2 extends HttpServlet {
                 System.out.println(name+";"+value);
             }
         }
+        resp.getWriter().write("<h1>cookieDemo2</h1>");
     }
 
     @Override
