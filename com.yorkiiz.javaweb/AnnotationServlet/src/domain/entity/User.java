@@ -12,6 +12,13 @@ import java.util.Date;
 public class User {
 
     private String name;
+
+    public User(String name, String age, Date date) {
+        this.name = name;
+        this.age = age;
+        this.date = date;
+    }
+
     private String age;
     private Date date;
 
