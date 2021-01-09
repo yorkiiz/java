@@ -26,24 +26,58 @@
             text-align: center;
         }
     </style>
+    <script>
+        window.onload = function(){
+            document.getElementById("delSelect").onclick = function(){
+
+                if(confirm("您确定要删除吗")){
+                    var flag = false;
+                    var cb = document.getElementsByName("tid");
+                    for (var i=0;i<cb.length;i++) {
+                        if(cb[i].checked){
+                            flag=true;
+                            break;
+
+                        }
+                    }
+                    if(flag){
+                        document.getElementById("form").submit();
+                    }else {
+                        alert("请先选择数据");
+                    }
+
+                }
+
+
+            }
+
+            document.getElementById("cbs").onclick = function(){
+
+                var cb = document.getElementsByName("tid");
+                for (var i=0;i<cb.length;i++) {
+                    cb[i].checked = this.checked;
+                }
+            }
+        }
+    </script>
 </head>
 <body>
 <div class="container">
     <h3 style="text-align: center">阴阳师资源信息</h3>
 
     <div style="float: left;margin: 5px">
-        <form class="form-inline">
+        <form class="form-inline" action="${pageContext.request.contextPath}/selectServlet" method="get">
             <div class="form-group">
                 <label for="time1">开始时间</label>
-                <input type="text" class="form-control" id="time1" placeholder="2020-11-22">
+                <input type="text" class="form-control" id="time1" name ="time1" placeholder="2020-11-22">
             </div>
             <div class="form-group">
                 <label for="time2">结束时间</label>
-                <input type="text" class="form-control" id="time2" placeholder="2020-12-22">
+                <input type="text" class="form-control" id="time2" name="time2" placeholder="2020-12-22">
             </div>
             <div class="form-group">
                 <label for="number">序号</label>
-                <input type="text" class="form-control" id="number" placeholder="1">
+                <input type="text" class="form-control" id="number" name="number" placeholder="1">
             </div>
             <button type="submit" class="btn btn-default">查询</button>
         </form>
@@ -51,11 +85,12 @@
 
     <div style="float: right;margin: 5px">
         <a class="btn btn-primary" href="add.jsp">添加信息</a>
-        <a class="btn btn-primary" href="add.html">删除选中</a>
+        <a class="btn btn-primary" href="javascript:void(0)" id="delSelect">删除选中</a>
     </div>
+    <form id="form" action="${pageContext.request.contextPath}/delSelectServlet" method="post">
     <table border="1" class="table table-bordered table-hover">
         <tr class="success">
-            <th><input type="checkbox"></th>
+            <th><input type="checkbox" id="cbs" ></th>
             <th>时间</th>
             <th>序号</th>
             <th>金币</th>
@@ -64,12 +99,13 @@
             <th>勾玉</th>
             <th>蛇皮</th>
             <th>金蛇皮</th>
+            <th>蛇票</th>
             <th>备注</th>
             <th></th>
         </tr>
         <c:forEach items="${users}" var="user" varStatus="s">
             <tr>
-                <td><input type="checkbox"></td>
+                <td><input type="checkbox"  name="tid" value="${user.date}"></td>
                 <td>${user.date}</td>
                 <td>${user.number}</td>
                 <td>${user.gold}</td>
@@ -78,16 +114,18 @@
                 <td>${user.gouyu}</td>
                 <td>${user.shepi}</td>
                 <td>${user.goldenshepi}</td>
+                <td>${user.shepiao}</td>
                 <td>${user.comment}</td>
-                <td><a class="btn btn-default btn-sm" href="update.html">修改</a>&nbsp;
+                <td><a class="btn btn-default btn-sm" href="${pageContext.request.contextPath}/updateServlet?date=${user.date}&&number=${user.number}">修改</a>&nbsp;
                     <a class="btn btn-default btn-sm" href="${pageContext.request.contextPath}/deleteServlet?date=${user.date}&&number=${user.number}">删除</a>
                 </td>
             </tr>
         </c:forEach>
         <tr>
-            <td colspan="8" align="center"><a class="btn btn-primary" href="add.html">添加信息</a></td>
+            <td colspan="12" align="center"><a class="btn btn-primary" href="add.html">添加信息</a></td>
         </tr>
     </table>
+    </form>
     <div>
         <nav aria-label="Page navigation">
             <ul class="pagination">

@@ -11,7 +11,7 @@ import java.sql.Timestamp;
  **/
 
 @Data
-public class YysData {
+public class YysData_bk {
 
     private Timestamp date;
     private int number;

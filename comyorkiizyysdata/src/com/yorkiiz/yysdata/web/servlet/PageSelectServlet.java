@@ -1,9 +1,9 @@
 package com.yorkiiz.yysdata.web.servlet;
 
+import com.yorkiiz.yysdata.domain.PageBean;
 import com.yorkiiz.yysdata.domain.YysData;
 import com.yorkiiz.yysdata.service.UserService;
 import com.yorkiiz.yysdata.service.impl.UserServiceImpl;
-import org.junit.Test;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -11,7 +11,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -20,20 +19,24 @@ import java.util.List;
  * @describtion:
  **/
 
-@WebServlet("/UserListServlet")
-public class UserListServlet extends HttpServlet {
+@WebServlet("/PageSelectServlet")
+public class PageSelectServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        List<YysData> users = null;
+        String currentpage = req.getParameter("currentpage");//当前页码
+        String rows = req.getParameter("rows");//每页显示条数
 
         //调用service
-        UserServiceImpl userService = new UserServiceImpl();
-        users = userService.findAll();
+        UserService service = new UserServiceImpl();
+        PageBean<YysData> pageBean = service.findbyPage(currentpage,rows);
+
+
+
 
 
         //存入request域
-        req.setAttribute("users",users);
+        req.setAttribute("pageBean",pageBean);
 
         //转发对象
         req.getRequestDispatcher("/list.jsp").forward(req, resp);
