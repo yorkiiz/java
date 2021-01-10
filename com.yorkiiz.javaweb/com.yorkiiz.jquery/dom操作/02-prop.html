@@ -1,0 +1,60 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>获取属性</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<script  src="../js/jquery-3.3.1.min.js"></script>
+	
+	
+	<style type="text/css">
+
+			
+			div.visible{
+				display:none;
+			}
+	 </style>
+    
+	<script type="text/javascript">
+
+		$(function () {
+
+			//获取北京节点的name属性值
+			var attr = $("#bj").attr("name");
+			//alert(attr);
+			//设置北京节点的name属性的值为dabeijing
+			$("#bj").attr("name","dbeijing");
+
+			//新增北京节点的discription属性 属性值是didu
+			$("#bj").attr("describtion","didu");
+			//删除北京节点的name属性并检验name属性是否存在
+			$("#bj").removeAttr("name");
+			//获得hobby的的选中状态
+
+			var prop = $("#hobby").prop("checked");
+			//alert(prop);
+		})
+
+
+		
+	</script>
+	
+	
+	</head>
+	 
+	<body>
+				
+		 <ul>
+		 	 <li id="bj" name="beijing" xxx="yyy">北京</li>
+			 <li id="tj" name="tianjin">天津</li>
+		 </ul>
+		 <input type="checkbox" id="hobby">hobbybox</input>
+		 
+		
+	</body>
+	
+	
+   
+</html>
+
+
+
