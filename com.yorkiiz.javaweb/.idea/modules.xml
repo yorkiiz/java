@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/AnnotationServlet/AnnotationServlet.iml" filepath="$PROJECT_DIR$/AnnotationServlet/AnnotationServlet.iml" />
       <module fileurl="file://$PROJECT_DIR$/com.yorkiiz.javaweb.iml" filepath="$PROJECT_DIR$/com.yorkiiz.javaweb.iml" />
       <module fileurl="file://$PROJECT_DIR$/com.yorkiiz.webserver/com.yorkiiz.webserver.iml" filepath="$PROJECT_DIR$/com.yorkiiz.webserver/com.yorkiiz.webserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/comyorkiizajax/comyorkiizajax.iml" filepath="$PROJECT_DIR$/comyorkiizajax/comyorkiizajax.iml" />
+      <module fileurl="file://$PROJECT_DIR$/comyorkiizjqueryhigh/comyorkiizjqueryhigh.iml" filepath="$PROJECT_DIR$/comyorkiizjqueryhigh/comyorkiizjqueryhigh.iml" />
     </modules>
   </component>
 </project>
