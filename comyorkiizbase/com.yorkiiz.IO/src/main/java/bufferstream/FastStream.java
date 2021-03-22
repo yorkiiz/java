@@ -1,6 +1,9 @@
 package bufferstream;
 
 import java.io.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 /**
  * @auther:
@@ -34,7 +37,14 @@ public class FastStream {
 
 
 
+        List<String> a = new ArrayList<>();
+        Runnable target;
+
+
+
     }
+
+
 
 
 }

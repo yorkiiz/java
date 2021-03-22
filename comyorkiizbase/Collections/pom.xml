@@ -9,12 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>com.yorkiiz.IO</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>../Others</module>
-        <module>../thread</module>
-    </modules>
+    <groupId>com.yorkiiz.base</groupId>
+    <artifactId>Collections</artifactId>
 
 
 </project>
