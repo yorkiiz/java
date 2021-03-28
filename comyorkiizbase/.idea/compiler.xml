@@ -9,9 +9,11 @@
         <module name="Others" />
         <module name="thread" />
         <module name="comyorkiizbase" />
+        <module name="Collections" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Collections" target="1.5" />
       <module name="com.yorkiiz.base" target="1.5" />
       <module name="comyorkiizIO" target="1.5" />
       <module name="Others" target="7" />
