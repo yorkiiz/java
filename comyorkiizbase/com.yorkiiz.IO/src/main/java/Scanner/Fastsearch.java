@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 public class Fastsearch {
     public static void main(String[] args) {
-        ArrayList<Integer> ls = new ArrayList<>();
+        ArrayList<Integer> ls = new ArrayList<Integer>();
     }
 
 }

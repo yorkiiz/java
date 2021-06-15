@@ -37,7 +37,7 @@ public class FastStream {
 
 
 
-        List<String> a = new ArrayList<>();
+        List<String> a = new ArrayList<String>();
         Runnable target;
 
 

@@ -18,7 +18,7 @@ public class FileReadv1 {
         BufferedWriter bfw = new BufferedWriter(new FileWriter(fileo));
 
         String line;
-        HashMap<String, String> map = new HashMap<>();
+        HashMap<String, String> map = new HashMap<String, String>();
         String[] arr;
         while ((line = bfd.readLine())!= null){
            arr = line.split("->");
