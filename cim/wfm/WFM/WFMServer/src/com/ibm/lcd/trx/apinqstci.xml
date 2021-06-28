@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE struct SYSTEM "lcd-struct.dtd" [
-  <!ENTITY % alglen SYSTEM "alglen.dtd"> %alglen;
-]>
-<struct name="transaction">
-  <field name="trx_id" size="&TRX_ID_LEN;">BPINQSTC</field>
-  <field name="type_id" size="&TRX_TYP_LEN;">I</field>
-  <field name="stocker_id" size="&EQPT_ID_LEN;"/>
-</struct>
